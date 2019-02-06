@@ -7,7 +7,7 @@ This document and the contents stored in this repo corresponds to ;usic Interact
 ## Week 1
 
 ### Music Interaction Exercise
-We were expected to design a music interaction based on one musical piece and an oblique strategy. The song I chose is [Sulky](https://www.youtube.com/watch?v=8E-Go310oe4) by the Argentinian musician Gustavo Cerati. Sulky is a 4:18 minutes electro-rock [Chacarera](https://en.wikipedia.org/wiki/Chacarera) – a folk music and dance from the countryside of Río de la Plata zone – written in 6/8 and a tempo of 115 bpm.
+We were expected to design a music interaction based on one musical piece and an oblique strategy. The song I chose is [Sulky](https://www.youtube.com/watch?v=8E-Go310oe4) by the Argentinian musician Gustavo Cerati. Sulky is a 4:18 minutes electro-rock [Chacarera](https://en.wikipedia.org/wiki/Chacarera) –a folk music and dance from the countryside of Río de la Plata zone– written in 6/8 and a tempo of 115 bpm.
 
 This is a song built from samples of typical instruments as Legüero bass drum and guitar, piano and a bunch of synths and unrecognizable samples that conform a dreamlike experience of traveling through a dark and open flat land.
 
