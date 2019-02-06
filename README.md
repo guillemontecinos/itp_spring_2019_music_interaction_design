@@ -22,3 +22,5 @@ The interaction –for only one person– consists in a dark room with one chair
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week1_diagram2.jpg" align="middle" width="70%">
 </p>
+
+## Final Project Prompt
