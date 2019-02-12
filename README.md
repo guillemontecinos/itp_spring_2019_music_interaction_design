@@ -23,7 +23,7 @@ The interaction –for only one person– consists in a dark room with one chair
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week1_diagram2.jpg" align="middle" width="70%">
 </p>
 
-### Final Project Iteration /#1
+### Final Project Iteration #1
 
 For this project I'm interested in designing an interaction that through music can explore concepts as **identity, community, oppression and migration**, and how these concepts are understood in the post-globalization world were hateful speeches delivered against under represented and discriminated communities have rose. With a southern perspective I'm concerned in engaging territorial and musical communitarian memory, and how that memory can crop up when identity and community are threatened. As well through this interaction I want to challenge the role of technology as a medium used to create interactive installations or applications.
 
@@ -32,7 +32,7 @@ Regarding the kind of this interaction I haven't addressed the final format it w
 Some references as [Voluspa Jarpa](http://ismorbo.com/voluspa-jarpa-lleva-la-historia-oculta-de-latinoamerica-y-la-cia-al-matucana-100/)
 
 ## Week 2
-### Final project Iteration /#2
+### Final project Iteration #2
 For this iteration of the project I'd like to keep the eye on the concept of community and imagine an interaction around it. According with [Wikipedia](https://en.wikipedia.org/wiki/Community) *A community is a small or large social unit (a group of living things) that has something in common, such as norms, religion, values, or identity* – and usually a sense of territoriality and a common memory as well. The reason why we humans live in communities is because –ideally– together we can make more and better than separated.
 
 Then, a community-based –or communitarian– music interaction can be one that expresses the best of it only when there is an engaged community interacting with it. An interesting goal to approach through this is to connect people around a musical interaction even if they don't know each other –or if they don't have a common memory– and make them realize that the sound landscape they are experiencing exists only because they are they are part of that interaction.
