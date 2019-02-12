@@ -49,3 +49,13 @@ During this iteration I approached the idea of an interactive installation –I'
 The above means that we can think for this instance that rhythm is the base of music, so as soon as a person appears rhythm will start playing a kick drum. As more people join the interaction more instruments will start to play and the performance/interaction will vary. As we can see in the next video, kick is represented by the apparition of the first person, whilst lead synth sequencer and bass synth (sequencer) represent the interaction of a 2nd and 3rd users. This is just a conceptual representation of the importance of collective engage for this interaction.
 
 As a long term design goal, the idea is every inter-actor can control certain parameters of they *musical representation* as timber, melody sequence, eq, etc. As well, I would like to allow one –not sure if any or just one– user to control beat and signature.
+
+### Aural Mood Board
+As an aural mood board I have selected some projects/bands/songs/pieces that inspire me for the design of this project:
+
+* [Format 3](https://vimeo.com/259987819) - by [FOO/SKOU](http://fooskou.tumblr.com/)
+* [Pierre Schaeffer](https://www.youtube.com/watch?v=CTf0yE15zzI) - Études de bruits (1948)
+* [Organelle](https://www.youtube.com/watch?v=4MA8jQ4lfq4&t=100) - Critter & Guitari
+* [Sound of nature](https://www.youtube.com/watch?v=OdIJ2x3nxzQ)
+* [Bombo Legüero](https://www.youtube.com/watch?v=jo6E56_eBbE)
+* [Thom Yorke's mood](https://www.youtube.com/watch?v=BTZl9KMjbrU)
