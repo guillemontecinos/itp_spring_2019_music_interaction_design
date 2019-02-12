@@ -31,10 +31,21 @@ Regarding the kind of this interaction I haven't addressed the final format it w
 
 Some references as [Voluspa Jarpa](http://ismorbo.com/voluspa-jarpa-lleva-la-historia-oculta-de-latinoamerica-y-la-cia-al-matucana-100/)
 
-## Week 2
+## Week 2 - Collective orchestra
 ### Final project Iteration #2
 For this iteration of the project I'd like to keep the eye on the concept of community and imagine an interaction around it. According with [Wikipedia](https://en.wikipedia.org/wiki/Community) *A community is a small or large social unit (a group of living things) that has something in common, such as norms, religion, values, or identity* – and usually a sense of territoriality and a common memory as well. The reason why we humans live in communities is because –ideally– together we can make more and better than separated.
 
 Then, a community-based –or communitarian– music interaction can be one that expresses the best of it only when there is an engaged community interacting with it. An interesting goal to approach through this is to connect people around a musical interaction even if they don't know each other –or if they don't have a common memory– and make them realize that the sound landscape they are experiencing exists only because they are they are part of that interaction.
 
 Regarding the above, this interaction can be experienced by any person from any cultural background, so there are no restrictions for play testing.
+
+### Musical User Path
+During this iteration I approached the idea of an interactive installation –I'm not quite sure if physical, virtual or maybe both– where music is created collectively. Depending on how many users are interacting in the space the music construction will vary. In this regard, music parameters may be organized hierarchically and my follow this pattern:
+
+* Rhythm
+* Melody
+* Harmony
+
+The above means that we can think for this instance that rhythm is the base of music, so as soon as a person appears rhythm will start playing a kick drum. As more people join the interaction more instruments will start to play and the performance/interaction will vary. As we can see in the next video, kick is represented by the apparition of the first person, whilst lead synth sequencer and bass synth (sequencer) represent the interaction of a 2nd and 3rd users.
+
+As a long term design goal, the idea is every inter-actor can control certain parameters of they *musical representation*, as timber, melody sequence, eq, etc. As well, I pretend to allow one –not sure if any or just one– user to control beat and signature.
