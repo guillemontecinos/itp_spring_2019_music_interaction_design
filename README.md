@@ -55,7 +55,7 @@ As an aural mood board I have selected some projects/bands/songs/pieces that ins
 
 * [Organelle](https://www.youtube.com/watch?v=4MA8jQ4lfq4&t=100) - Critter & Guitari
 * [Thom Yorke's mood](https://www.youtube.com/watch?v=BTZl9KMjbrU)
-* [Format 3](https://vimeo.com/259987819) - by [FOO/SKOU](http://fooskou.tumblr.com/)
+* [Format 3](https://vimeo.com/259987819#t=0m44s) - by [FOO/SKOU](http://fooskou.tumblr.com/)
 * [Pierre Schaeffer](https://www.youtube.com/watch?v=CTf0yE15zzI) - Études de bruits (1948)
 * [Sound of nature](https://www.youtube.com/watch?v=OdIJ2x3nxzQ)
 * [Bombo Legüero](https://www.youtube.com/watch?v=jo6E56_eBbE)
