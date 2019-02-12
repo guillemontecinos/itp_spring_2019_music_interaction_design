@@ -53,9 +53,9 @@ As a long term design goal, the idea is every inter-actor can control certain pa
 ### Aural Mood Board
 As an aural mood board I have selected some projects/bands/songs/pieces that inspire me for the design of this project:
 
+* [Organelle](https://www.youtube.com/watch?v=4MA8jQ4lfq4&t=100) - Critter & Guitari
+* [Thom Yorke's mood](https://www.youtube.com/watch?v=BTZl9KMjbrU)
 * [Format 3](https://vimeo.com/259987819) - by [FOO/SKOU](http://fooskou.tumblr.com/)
 * [Pierre Schaeffer](https://www.youtube.com/watch?v=CTf0yE15zzI) - Études de bruits (1948)
-* [Organelle](https://www.youtube.com/watch?v=4MA8jQ4lfq4&t=100) - Critter & Guitari
 * [Sound of nature](https://www.youtube.com/watch?v=OdIJ2x3nxzQ)
 * [Bombo Legüero](https://www.youtube.com/watch?v=jo6E56_eBbE)
-* [Thom Yorke's mood](https://www.youtube.com/watch?v=BTZl9KMjbrU)
