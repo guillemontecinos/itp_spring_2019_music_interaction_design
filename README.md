@@ -53,10 +53,10 @@ As a long term design goal, the idea is every inter-actor can control certain pa
 ### Aural Mood Board
 As an aural mood board I have selected some projects/bands/songs/pieces that inspire me for the design of this project:
 
-* [Organelle](https://www.youtube.com/watch?v=4MA8jQ4lfq4&t=100) - Critter & Guitari
+* [Organelle's](https://www.youtube.com/watch?v=4MA8jQ4lfq4&t=100) (Critter & Guitari) synthesis timber
 * [Thom Yorke's mood](https://www.youtube.com/watch?v=BTZl9KMjbrU)
 * [Bonobo's live mood](https://www.youtube.com/watch?v=fQAFfeQNpGc&t=20)
-* [Format 3](https://vimeo.com/259987819#t=0m45s) - by [FOO/SKOU](http://fooskou.tumblr.com/)
-* [Pierre Schaeffer](https://www.youtube.com/watch?v=CTf0yE15zzI) - Études de bruits (1948)
-* [Sound of nature](https://www.youtube.com/watch?v=OdIJ2x3nxzQ)
-* [Bombo Legüero](https://www.youtube.com/watch?v=jo6E56_eBbE)
+* [Format 3](https://vimeo.com/259987819#t=0m45s) (by [FOO/SKOU](http://fooskou.tumblr.com/)) sound synthesis aspect and maybe their installation style
+* [Pierre Schaeffer](https://www.youtube.com/watch?v=CTf0yE15zzI) Études de bruits's (1948) manipulation of sound
+* [Bombo Legüero's](https://www.youtube.com/watch?v=jo6E56_eBbE) depth
+* [Sound of the forest](https://www.youtube.com/watch?v=OdIJ2x3nxzQ) because I like and makes me feel good
