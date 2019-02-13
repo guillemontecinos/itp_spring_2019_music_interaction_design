@@ -48,7 +48,13 @@ During this iteration I approached the idea of an interactive installation –I'
 
 The above means that we can think for this instance that rhythm is the base of music, so as soon as a person appears rhythm will start playing a kick drum. As more people join the interaction more instruments will start to play and the performance/interaction will vary. As we can see in the next video (WIP), kick is represented by the apparition of the first person, whilst lead synth sequencer and bass synth (sequencer) represent the interaction of a 2nd and 3rd users. This is just a conceptual representation of the importance of collective engage for this interaction.
 
-[![](https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week2_user_path_cover.png)](https://vimeo.com/317072294)
+<!-- [![](https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week2_user_path_cover.png)](https://vimeo.com/317072294) -->
+
+<p align="center">
+  <a href="https://vimeo.com/317072294">
+    <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week2_user_path_cover.png" align="middle" width="70%">
+  </a>
+</p>
 
 As a long term design goal, the idea is every inter-actor can control certain parameters of they *musical representation* as timber, melody sequence, eq, etc. As well, I would like to allow one –not sure if any or just one– user to control beat and signature.
 
