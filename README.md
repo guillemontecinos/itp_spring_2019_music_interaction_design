@@ -74,8 +74,14 @@ During this week iteration I explored how a one person interaction would be, reg
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week3_diagram.jpg" align="middle" width="70%">
 </p>
 
-The original scheme designed was that after detecting the pose with PoseNet, that information had to be sent to Max/Msp via OSC to be interpreted and converted to MIDI and sent to Ableton Live to control the aforementioned parameters. Due to some protocol issues I couldn't wrk with Runway to detect poses because the message wasn't received at Max (now I know that Max should send an *start* message to Runways OSC server to begin communication, so I'll implement it in further iterations), so I decided to work with a ml5.js implementation of PoseNet which sends the data via Socket/OSC to Max.
+The original scheme designed was that after detecting the pose with PoseNet, that information had to be sent to Max/Msp via OSC to be interpreted and converted to MIDI and sent to Ableton Live to control the aforementioned parameters. Due to some protocol issues I couldn't make Runway work in order to detect poses because the message wasn't received at Max (now I know that Max should send an *start* message to Runways OSC server to begin communication, so I'll implement it in further iterations), so I decided to work with a ml5.js implementation of PoseNet which sends the data via Socket/OSC to Max.
 
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week3_maxpat.png" align="middle" width="70%">
+</p>
+
+During the process as well I realized that Ableton Live's time signature can't be modified remotely by a MIDI mapping –as I could do with tempo and play/stop– because there is not a routing option to time signature values. So I had to rule this interaction option. As it can be seen when the MIDI Mapping menu is opened, *CC 20* to *Song Tempo*, *Note D#0* is connected to *Stop* and *Note E0* is connected to *Start*. At the same time, it can be noticed that the aforementioned buttons are blue-painted, whilst the time signature has no color because can't be mapped.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week3_midimap.png" align="middle" width="70%">
 </p>
