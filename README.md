@@ -70,4 +70,12 @@ As an aural mood board I have selected some projects/bands/songs/pieces that ins
 ## Week 3 - One person interaction
 During this week iteration I explored how a one person interaction would be, regarding on the idea that first person can represent rhythm. The original goal was to allow an inter-actor to control play/pause of an Ableton Live arrangement via being or not in a physical space, as well as control tempo and time signature with his/her hands. For this purpose, user's pose was expected to detect using the PoseNet (ML) model running on the Runnway app.
 
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week3_diagram.jpg" align="middle" width="70%">
+</p>
+
 The original scheme designed was that after detecting the pose with PoseNet, that information had to be sent to Max/Msp via OSC to be interpreted and converted to MIDI and sent to Ableton Live to control the aforementioned parameters. Due to some protocol issues I couldn't wrk with Runway to detect poses because the message wasn't received at Max (now I know that Max should send an *start* message to Runways OSC server to begin communication, so I'll implement it in further iterations), so I decided to work with a ml5.js implementation of PoseNet which sends the data via Socket/OSC to Max.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week3_maxpat.png" align="middle" width="70%">
+</p>
