@@ -44,8 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 496.0, 156.5, 56.0, 47.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 496.0, 156.5, 58.0, 47.0 ],
 					"text" : "left bang when turns 1"
 				}
 
@@ -57,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 307.0, 156.5, 55.0, 47.0 ],
+					"patching_rect" : [ 307.0, 156.5, 58.0, 47.0 ],
 					"text" : "left bang when turns 0"
 				}
 
@@ -101,12 +100,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-46",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 413.0, 73.0, 150.0, 47.0 ],
-					"text" : "here I want to start and stop depending on a person's presence"
+					"patching_rect" : [ 431.0, 79.0, 150.0, 60.0 ],
+					"text" : "This branch controls play/stop buttons at Live depending if there is one person or not."
 				}
 
 			}
