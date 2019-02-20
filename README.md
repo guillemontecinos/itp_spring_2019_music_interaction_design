@@ -80,8 +80,31 @@ The original scheme designed was that after detecting the pose with PoseNet, tha
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week3_maxpat.png" align="middle" width="70%">
 </p>
 
+In the above patch, `udpreceive 7500` is listening to the port 7500 for OSC messages. The information sent from the jS sketch contains the vertical position of the left hand in a range of 0 - 127, and the amount of poses detected. The first is passed to `ctlout` –which sends MIDI control messages– while the second is used as a decision variable to play or stop the track, controlled via MIDI by the midinotes #27 and #28 –sent by `noteout`.
+
 During the process as well I realized that Ableton Live's time signature can't be modified remotely by a MIDI mapping –as I could do with tempo and play/stop– because there is not a routing option to time signature values. So I had to rule this interaction option. As it can be seen when the MIDI Mapping menu is opened, *CC 20* to *Song Tempo*, *Note D#0* is connected to *Stop* and *Note E0* is connected to *Start*. At the same time, it can be noticed that the aforementioned buttons are blue-painted, whilst the time signature has no color because can't be mapped.
 
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week3_midimap.png" align="middle" width="70%">
+</p>
+
+Finally, regarding the assignment of *make music with chords progressions* I just explored some standard progressions but didn't create an actual composition:
+
+**Major**
+* I - IV - V
+* I - IIm - V
+* I - VIm - IIm - V
+* I IIIm - VIm - IIm - V
+
+**Minor**
+* Im - VIm - Vm
+* Im - IIdim - V (harmonic)
+* Im - Vidim - IIm - V (melodic)
+
+But, for the interaction sample I used a basic Major chord progression played in piano as can be seen as follows.
+
+<p align="center">
+  <a href="https://vimeo.com/318212799">
+    <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week3_interaction1.png" align="middle" width="70%">
+  </a>
 </p>
