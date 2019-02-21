@@ -17,3 +17,22 @@
 * http://teropa.info/harmonics-explorer/
 * Assignment:
   * Do a 2nd user path manipulating timber, harmony, etc
+
+## Week 4
+### Synthesis
+  * Play with *Operator* and *Analog* at Live
+### Interaction Design
+* how do you **feel/know/do**?
+* do
+  * cool (interactor brings a lot) vs hot (more precise)
+* know
+  * designed for variety of users
+  * path
+  * map
+  * [Lynch's elements](https://bcamarsharchi525.wordpress.com/2013/03/05/lynchs-five-elements/)
+* **Assignment**: think about the project as 3 cycles of how I feel now
+* [Bill Verplank](http://billverplank.com/IxDSketchBook.pdf) Interaction design Framework
+* [Interaction Design Book](https://arl.human.cornell.edu/879Readings/Interaction%20Design%20-%20Beyond%20Human-Computer%20Interaction.pdf)
+* **Assignment**: Apply *Towards a Dimension Space for Musical Devices* Dimension Space to my project
+
+## Week 5
