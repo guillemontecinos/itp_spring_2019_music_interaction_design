@@ -46,3 +46,5 @@ Guests for the future:
   * Concept/Process
   * Prototype
   * 10 mins (total)
+* [The importance of parameter mapping in electronic
+instrument design](http://www.nime.org/proceedings/2002/nime2002_088.pdf)
