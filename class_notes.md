@@ -36,3 +36,13 @@
 * **Assignment**: Apply *Towards a Dimension Space for Musical Devices* Dimension Space to my project
 
 ## Week 5
+Guests for the future:
+* [Lea Bertucci](http://lea-bertucci.com/)
+* [Valentina Camacho](http://valencamacho.com/)
+* [Upright T-Rex Music](http://uprighttrexmusic.com/)
+* [Imaginary](http://10years.imaginary.org/)
+* Midterm (March 13th):
+  * Presentation
+  * Concept/Process
+  * Prototype
+  * 10 mins (total)
