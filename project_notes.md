@@ -39,5 +39,5 @@
   * [AR Sound Vis + 3d Printing](https://www.3ders.org/articles/20131230-visualizing-active-sound-waves-with-3d-printing-augmented-reality.html)
   * [Visualization techniques in AR](https://data.icg.tugraz.at/~dieter/publications/Schmalstieg_217.pdf)
   * [Visualizing high dimensional data in AR](https://medium.com/inside-machine-learning/visualizing-high-dimensional-data-in-augmented-reality-2150a7e62d5b)
-  * [Zach Lieberman's Sound AR](https://www.wired.com/story/an-artist-uses-an-iphone-to-visualize-sounds-in-ar/?mbid=social_fb)
+  * [Zach Lieberman's Sound AR](https://www.wired.com/story/an-artist-uses-an-iphone-to-visualize-sounds-in-ar/?mbid=social_fb). [Instagram](https://www.instagram.com/p/Bdh_ljNAerB/)
   * [Wearable AR Sound Visualization](https://www.youtube.com/watch?v=sWoE7uVImD4)
