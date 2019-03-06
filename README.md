@@ -145,3 +145,8 @@ Regarding the above, the main question is **how to keep user attention?**
 |ERROR|SCENARIO|TASK|CONTROL|
 |-|-|-|-|
 |There are no displays to perceive music other than hearing and deaf people is not included in design|A musician sees music in space when creating and/or hearing|Sound capture / FFT / Space Measuring / Visual and mechanical stimuli generation|Display movement in space used to see sound in space / Output modes selection|
+
+### 7-axis dimension space diagram
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_5/assets/dimension_space_diagram.png" align="middle" width="70%">
+</p>
