@@ -141,7 +141,7 @@ Regarding the above, the main question is **how to keep user attention?**
 |IDEA|METAPHOR|MODEL|DISPLAY|
 |-|-|-|-|
 |A non-traditional music perceiving tool|Synesthesia|A software-based system that extracts music information and transduce it into visual and mechanical stimuli|AR app for iPhone (prototype)|
-
+|-|-|-|-|
 |ERROR|SCENARIO|TASK|CONTROL|
 |-|-|-|-|
 |There are no displays to perceive music other than hearing and deaf people is not included in design|A musician sees music in space when creating and/or hearing|Sound capture / FFT / Space Measuring / Visual and mechanical stimuli generation|Display movement in space used to see sound in space / Output modes selection|
