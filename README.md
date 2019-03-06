@@ -140,4 +140,4 @@ Regarding the above, the main question is **how to keep user attention?**
 
 |IDEA       |METAPHOR     |MODEL|DISPLAY|
 |-----------|-------------|-----|-------|
-|A non-traditional music perceiving tool|Synesthesia|2017 |0      |
+|A non-traditional music perceiving tool|Synesthesia|A software-based system that extracts music information and transduce it into visual and mechanical stimuli|AR app for iPhone (prototype)|
