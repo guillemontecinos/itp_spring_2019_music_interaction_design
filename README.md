@@ -124,7 +124,8 @@ Departing from the above, I will design an experience in which sound information
 
 A technique that I feel conveys both senses is AR. By processing music I can isolate its most important features and map them to a visualization which can be displayed in the space, at the same time it is complemented with vibrations. Regarding the above, sound visualization and spatialization is a well explored field plenty of material to inspire, from **spectrograms** [1](https://www.youtube.com/watch?v=2MUZWFEEzSg), [2](https://www.youtube.com/watch?v=rqSEaF0rC60), to **abstract visualizations** [1](https://www.youtube.com/watch?v=sMHtMaym-2k), [2](https://www.youtube.com/watch?v=mEp_CtJHF0c), [3](https://www.youtube.com/watch?v=dqnMoWHon40), and covering [ML-based](https://experiments.withgoogle.com/seeing-music) music visualizing. In terms of AR sound visualizations there are interesting referents as (of course) [Zach Liebermen](https://www.instagram.com/p/Bdh_ljNAerB/), [AR Sound Vis + 3d Printing](https://www.3ders.org/articles/20131230-visualizing-active-sound-waves-with-3d-printing-augmented-reality.html) and [Wearable AR Sound Visualization](https://www.youtube.com/watch?v=sWoE7uVImD4).
 
-### Verplank's IxD framework: DO/FEEL/KNOW
+### Verplank's IxD
+#### DO/FEEL/KNOW
 * How do I DO?
   * User experiences a physical/virtual musical space
 * How do I FEEL?
@@ -134,3 +135,9 @@ A technique that I feel conveys both senses is AR. By processing music I can iso
   * Turn App On -> Choose song/mic -> Choose visualization mode -> Perceive
 
 Regarding the above, the main question is **how to keep user attention?**
+
+#### Design framework
+
+|IDEA       |METAPHOR     |MODEL|DISPLAY|
+|-----------|-------------|-----|-------|
+|A non-traditional music perceiving tool     |Synesthesia        |2017 |0      |
