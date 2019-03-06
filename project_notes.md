@@ -32,6 +32,7 @@
   * [Sonic Plasticity, An Introduction - Wolfgang Gil](https://medium.com/@wolfganggil_35573/sonic-plasticity-an-introduction-343ae7e22de5)
   * [Resonant Bodies - Wolfgang Gil](https://wolfganggil.com/#/resonant-bodies-i/)
   * [More data Vis](https://99designs.com/blog/design-other/sound-visualization-design-inspiration/)
+  * [Visualization on Unity](https://www.youtube.com/watch?v=4Av788P9stk)
 * [How deaf people experience music](https://medium.com/@rachelelainemonica/how-deaf-people-experience-music-a313c3fa4bfd)
 * [Michael Simpson's Thesis](https://itp.nyu.edu/thesis2018/#/student/michael-simpson)
 * AR Sound Visualization:
@@ -39,3 +40,4 @@
   * [Visualization techniques in AR](https://data.icg.tugraz.at/~dieter/publications/Schmalstieg_217.pdf)
   * [Visualizing high dimensional data in AR](https://medium.com/inside-machine-learning/visualizing-high-dimensional-data-in-augmented-reality-2150a7e62d5b)
   * [Zach Lieberman's Sound AR](https://www.wired.com/story/an-artist-uses-an-iphone-to-visualize-sounds-in-ar/?mbid=social_fb)
+  * [Wearable AR Sound Visualization](https://www.youtube.com/watch?v=sWoE7uVImD4)
