@@ -138,6 +138,6 @@ Regarding the above, the main question is **how to keep user attention?**
 
 #### Design framework
 
-|IDEA       |METAPHOR     |MODEL|DISPLAY|
-|-----------|-------------|-----|-------|
+|IDEA|METAPHOR|MODEL|DISPLAY|
+|-|-|-|-|
 |A non-traditional music perceiving tool|Synesthesia|A software-based system that extracts music information and transduce it into visual and mechanical stimuli|AR app for iPhone (prototype)|
