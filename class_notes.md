@@ -48,3 +48,7 @@ Guests for the future:
   * 10 mins (total)
 * [The importance of parameter mapping in electronic
 instrument design](http://www.nime.org/proceedings/2002/nime2002_088.pdf)
+
+## Week 6
+* [Iannis Xenakis](https://en.wikipedia.org/wiki/Iannis_Xenakis)
+* [Iannix](https://www.iannix.org/en/whatisiannix/)

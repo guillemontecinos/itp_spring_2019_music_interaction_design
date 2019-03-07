@@ -33,6 +33,8 @@
   * [Resonant Bodies - Wolfgang Gil](https://wolfganggil.com/#/resonant-bodies-i/)
   * [More data Vis](https://99designs.com/blog/design-other/sound-visualization-design-inspiration/)
   * [Visualization on Unity](https://www.youtube.com/watch?v=4Av788P9stk)
+  * [Oskar Fischinger - An Optical Poem](https://www.youtube.com/watch?v=6Xc4g00FFLk)
+  * [John Whitney - Catalog](https://www.youtube.com/watch?v=TbV7loKp69s&t=2s)
 * [How deaf people experience music](https://medium.com/@rachelelainemonica/how-deaf-people-experience-music-a313c3fa4bfd)
 * [Michael Simpson's Thesis](https://itp.nyu.edu/thesis2018/#/student/michael-simpson)
 * AR Sound Visualization:
@@ -41,3 +43,11 @@
   * [Visualizing high dimensional data in AR](https://medium.com/inside-machine-learning/visualizing-high-dimensional-data-in-augmented-reality-2150a7e62d5b)
   * [Zach Lieberman's Sound AR](https://www.wired.com/story/an-artist-uses-an-iphone-to-visualize-sounds-in-ar/?mbid=social_fb). [Instagram](https://www.instagram.com/p/Bdh_ljNAerB/)
   * [Wearable AR Sound Visualization](https://www.youtube.com/watch?v=sWoE7uVImD4)
+
+## Feedback March 6th
+* [Russian Suprematism](https://duckduckgo.com/?q=russian+suprematism&atb=v156-1b_&iax=images&ia=images)
+* [Utopian Loops](https://danaelkis.com/Utopian-Loops)
+* [Junkopia - Chris Marker](https://www.youtube.com/watch?v=9ymKAhoXyPA)
+* [Simian Mobile Disco](https://www.youtube.com/watch?v=MOEGf7WGwIc)
+* [Rivers and Tides- Andy Goldsworthy](https://www.youtube.com/watch?v=f7sZv4_0Fxg)
+* [Michel Gondry - Visualizations for Noam Chomsky](https://www.youtube.com/watch?v=zex7yxN4GW0)
