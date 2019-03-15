@@ -157,6 +157,7 @@ In order to explore the limitless possibilities of approaching the idea proposed
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_6_midterm/assets/lieberman_ar.gif" align="middle" width="30%">
 </p>
+
 *One of Zach Lieberman's AR pieces*
 
 For the purpose of achieving this I learned how to build a 3D sound visualization in Unity, in which sound was analyzed by a 8-frequency band [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform). By this I learned how to place a volume in the space, how to animate it with sound data, and how to scrip
