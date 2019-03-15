@@ -155,7 +155,7 @@ Regarding the above, the main question is **how to keep user attention?**
 In order to explore the limitless possibilities of approaching the idea proposed during week 5, I decided to dive into 2D and 3D visuals generation. As a reference of sound visualization techniques I picked Seeing sound by Zimmerman, Mann, Kearney-Volpe, Pereira & Phillips, whilst for 3D AR sound visualization I picked Zach Lieberman's work and HoloDecks by Lukasz Karluk, whilst. Additionally, I decided to inspire in Kazimir Malevich, a Suprematist artist whose work was based on the abstraction of elemental shapes and the use of mostly warm colors.
 
 <p align="center">
-  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_6_midterm/assets/lieberman_ar.gif" align="middle" width="50%">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_6_midterm/assets/lieberman_ar.gif" align="middle" width="30%">
 </p>
 *One of Zach Lieberman's AR pieces*
 
