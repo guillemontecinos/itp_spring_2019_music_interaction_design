@@ -150,3 +150,20 @@ Regarding the above, the main question is **how to keep user attention?**
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_5/assets/dimension_space_diagram.png" align="middle" width="70%">
 </p>
+
+## Week 6 - Midterm
+In order to explore the limitless possibilities of approaching the idea proposed during week 5, I decided to dive into 2D and 3D visuals generation. As a reference of sound visualization techniques I picked Seeing sound by Zimmerman, Mann, Kearney-Volpe, Pereira & Phillips, whilst for 3D AR sound visualization I picked Zach Lieberman's work and HoloDecks by Lukasz Karluk, whilst. Additionally, I decided to inspire in Kazimir Malevich, a Suprematist artist whose work was based on the abstraction of elemental shapes and the use of mostly warm colors.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_6_midterm/assets/lienerman_ar.gif" align="middle" width="70%">
+</p>
+*One of Zach Lieberman's AR pieces*
+
+For the purpose of achieving this I learned how to build a 3D sound visualization in Unity, in which sound was analyzed by a 8-frequency band [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform). By this I learned how to place a volume in the space, how to animate it with sound data, and how to scrip
+
+* FFT may not be the best tool to extract perceptual elements of music
+  * Explore ML techniques
+  * Other techniques
+  * Beat detection
+* Learn more about perception and synesthesia
+  * Other ways of perceive music through shapes and color

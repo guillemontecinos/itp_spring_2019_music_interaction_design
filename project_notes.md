@@ -51,3 +51,21 @@
 * [Simian Mobile Disco](https://www.youtube.com/watch?v=MOEGf7WGwIc)
 * [Rivers and Tides- Andy Goldsworthy](https://www.youtube.com/watch?v=f7sZv4_0Fxg)
 * [Michel Gondry - Visualizations for Noam Chomsky](https://www.youtube.com/watch?v=zex7yxN4GW0)
+
+* [Sound Visualization in Unity](https://forum.unity.com/threads/audio-visualization-tutorial-unity-c-q-a.432461/)
+
+## Midterm Feedback - March 12nd & Office Hour
+* transcient analysis
+* explore specific cases
+* particular before generalize
+* compose cases to put my composing concepts
+* not to discard FFT that fast
+* en qué situación podría usar una app como esta
+* en qué lugar? (niño en un viaje)
+
+* Sound determinants (John Cage)
+  * Frequency or pitch
+  * Amplitude or loudness
+  * Overtone structure or timbre
+  * Duration
+  * Morphology (how the sound begins, goes on, and dies away)
