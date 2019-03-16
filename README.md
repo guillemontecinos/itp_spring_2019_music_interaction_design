@@ -152,13 +152,17 @@ Regarding the above, the main question is **how to keep user attention?**
 </p>
 
 ## Week 6 - Midterm
-In order to explore the limitless possibilities of approaching the idea proposed during week 5, I decided to dive into 2D and 3D visuals generation. As a reference of sound visualization techniques I picked Seeing sound by Zimmerman, Mann, Kearney-Volpe, Pereira & Phillips, whilst for 3D AR sound visualization I picked Zach Lieberman's work and HoloDecks by Lukasz Karluk, whilst. Additionally, I decided to inspire in Kazimir Malevich, a Suprematist artist whose work was based on the abstraction of elemental shapes and the use of mostly warm colors.
+In order to explore the possibilities of approaching the idea proposed during week 5, I decided to dive into 2D and 3D visuals generation. As a reference of sound visualization techniques I picked *Seeing sound* by Zimmerman, Mann, Kearney-Volpe, Pereira & Phillips, whilst for 3D AR sound visualization I picked Zach Lieberman's work (picture below) and *HoloDecks* by Lukasz Karluk, whilst. Additionally, I inspired in Kazimir Malevich, a Suprematist artist whose work was based on the abstraction of elemental shapes and the use of mainly warm colors.
 
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_6_midterm/assets/lieberman_ar.gif" align="middle" width="30%">
 </p>
 
-*One of Zach Lieberman's AR pieces*
+I split the work in 2D and 3D, in order to explore different visual aesthetics in a *simpler* context (2D) and to learn how to work with a more complex tool that allow me to display 3D graphics, as Unity (3D). The workflow consisted in analyzing the music by using an FFT so I can track how different frequency bands evolve in time. I connected then the information of some of the frequency bands to elements in the space.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_6_midterm/assets/workflow.png" align="middle" width="30%">
+</p>
 
 For the purpose of achieving this I learned how to build a 3D sound visualization in Unity, in which sound was analyzed by a 8-frequency band [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform). By this I learned how to place a volume in the space, how to animate it with sound data, and how to scrip
 
