@@ -161,7 +161,7 @@ In order to explore the possibilities of approaching the idea proposed during we
 I split the work in 2D and 3D, in order to explore different visual aesthetics in a *simpler* context (2D) and to learn how to work with a more complex tool that allow me to display 3D graphics, as Unity (3D). The workflow consisted in analyzing the music by using a [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform) so I can track how different frequency bands evolve in time. I connected then the information of some of the frequency bands to elements in the space.
 
 <p align="center">
-  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_6_midterm/assets/workflow.png" align="middle" width="30%">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_6_midterm/assets/workflow.png" align="middle" width="70%">
 </p>
 
 I learned how to build a 3D sound visualization in Unity, in which sound was analyzed by a 8-frequency band. By this I learned how to place a volume in the space, how to animate it with sound data, and how to scrip
