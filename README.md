@@ -173,10 +173,10 @@ I learned how to build a 3D sound visualization in Unity, in which sound was ana
 Finally I built a 2D animation of a Malevich painting, in order to explore how that kind of aesthetic can respond to music.
 
 <p align="center">
-  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_6_midterm/assets/sound_2d_airbag.gif" align="middle" width="70%">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_6_midterm/assets/sound_2d_airbag.gif" align="middle" width="50%">
 </p>
 
-I got the following notes from this process: 
+I got the following notes from this process:
 * FFT may not be the best tool to extract perceptual elements of music
   * Explore ML techniques
   * Other techniques
