@@ -164,8 +164,19 @@ I split the work in 2D and 3D, in order to explore different visual aesthetics i
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_6_midterm/assets/workflow.png" align="middle" width="70%">
 </p>
 
-I learned how to build a 3D sound visualization in Unity, in which sound was analyzed by a 8-frequency band. By this I learned how to place a volume in the space, how to animate it with sound data, and how to scrip
+I learned how to build a 3D sound visualization in Unity, in which sound was analyzed by a 8-frequency band. By this I learned how to place a volume in the space, how to animate it with sound data. I learned basic C# coding skills as well.
 
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_6_midterm/assets/sound_3d_airbag.gif" align="middle" width="70%">
+</p>
+
+Finally I built a 2D animation of a Malevich painting, in order to explore how that kind of aesthetic can respond to music.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_6_midterm/assets/sound_2d_airbag.gif" align="middle" width="70%">
+</p>
+
+I got the following notes from this process: 
 * FFT may not be the best tool to extract perceptual elements of music
   * Explore ML techniques
   * Other techniques
