@@ -69,3 +69,11 @@
   * Overtone structure or timbre
   * Duration
   * Morphology (how the sound begins, goes on, and dies away)
+
+## openFrameworks
+* [ofxFilterbank](https://github.com/leozimmerman/ofxFilterbank): openFrameworks addon for polyphonic pitch detection in an audio signal. It implements a bank of resonant audio filters centered at each frequency of the musical temperament.
+* [ofxAubio](https://aubio.org/ofxAubio/): *ofxAubioBeat* Estimate the musical tempo and track beat positions. *ofxAubioOnset* estimate note onset times. *ofxAubioPitch* track estimated note pitches. *ofxAubioMelBands* computes Energy in each Mel-Frequency Bands.
+* [ofxAudioAnalyzer](https://github.com/leozimmerman/ofxAudioAnalyzer): RMS, Instant power, Energy, Pitch frequency, Pitch Confidence, Pitch Salience, HFC, Centroid, Inharmonicity, Spectral Complexity, Dissonance, Roll Off, Odd To Even Harmonic Energy Ratio, Strong Peak, Strong Decay, Onsets, Spectrum, Mel Bands, MFCC, Harmonic Pitch Class Profile, Tristimulus
+* [ofxBeat](https://github.com/darrenmothersele/ofxBeat): A simple beat detection routine for openFrameworks that gives 32 fft bands plus separate output for kick, snare, and hihat.
+* [ofxBTrack](https://github.com/naotokui/ofxBTrack): beat tracking, not for onset detection.
+* [ofxFFT](https://github.com/kylemcdonald/ofxFft)
