@@ -209,3 +209,10 @@ I think the election of this visual language is arbitrary because the project is
 I think in this case the audio-side of the project is as important as the visual language or even more important because is what currently sets the sensation of space.
 
 ## Midterm-Final Plan
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week8_midtofinal1.jpg" align="middle" width="70%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week8_midtofinal2.jpg" align="middle" width="70%">
+</p>
