@@ -183,3 +183,27 @@ I got the following notes from this process:
   * Beat detection
 * Learn more about perception and synesthesia
   * Other ways of perceive music through shapes and color
+
+# Week 8 - Midterm Evaluation
+This is the evaluation of Ian MacDougald's *VR Composition System* midterm presentation, following the rubric developed during week 7:
+
+## Does it work?
+The prototype is currently working and was presented to the class through a video capture.
+
+## Ants
+The topic Ants addresses if the project sounds/feels like ants. I think this topic is achieved in sound terms because the instrument tends to sound like a bunch of ants talking each other. Besides, from a visual standpoint the project still looks as a bunch of purple balls, which hopefully will be improved.
+
+## Does it engage/inspire prolonged interest?
+The project seems to call user's attention –at least it called my attention– but I think it's very important that its visual representation be improved in the future. Additionally, I'd would suggest to explore other ways of interaction with the sound besides throwing the balls against the walls.
+
+## To what extent does an arbitrary user understand how their interactions affect the system?
+May be for this point it would be useful to have a description or a set of instructions at the beginning of the experience. Besides, I think it is equally interesting just to expose a user to a 3D grid of balls in a VR space and allow them to explore how to interact. It depends on the gesture you want to induce in the user.
+
+## Does it make you feel an spatial experience?
+Totally. I'd think a bit more if the walls have to be black or maybe have some texture. I'd like to see how an infinite space can deform user's perception in your project.
+
+## Visual-side: is the "visual language" coherent, and does it accomplish the unique goals you want it to accomplish?
+I think the election of this visual language is arbitrary because the project is in a prototype stage, but I'd expect a visuality that challenges the user to explore it.
+
+## Audio-side: if the "audio-language" is as important as the visual language theoretically, in your realized system, are they truly equal?
+I think in this case the audio-side of the project is as important as the visual language or even more important because is what currently sets the sensation of space.
