@@ -207,3 +207,5 @@ I think the election of this visual language is arbitrary because the project is
 
 ## Audio-side: if the "audio-language" is as important as the visual language theoretically, in your realized system, are they truly equal?
 I think in this case the audio-side of the project is as important as the visual language or even more important because is what currently sets the sensation of space.
+
+## Midterm-Final Plan
