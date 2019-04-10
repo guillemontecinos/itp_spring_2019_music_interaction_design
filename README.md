@@ -230,7 +230,7 @@ Then, I used that code as a base to place an spectrograph in a 3D space.
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_9/spectrograph.gif" align="middle" width="70%">
 </p>
 
-Finally I worked on porting the previous advance to AR in order to put it on actual space. For this I finally decided to work with Android –basically because I don't need a payed license to be able to develop prototypes. The framework consists in oF supported by Android via the Android-oF library, which in parallel runs the addon ofxARCore, which communicates between the oF script and ARCore –which is the Android framework that analyses the spatial motion of the device. This process was a little tricky because there are many layers of knowledge that I still don't understand, but I'm on it. Finally I could place the mesh in the space, adn this is how it looks.
+Finally I worked on porting the previous advances to AR. For this I finally decided to work with Android –basically because I don't need a payed license to develop prototypes. The framework consists in oF supported by Android via the Android-oF library, which in parallel the addon ofxARCore communicates between the oF script and ARCore –the Android framework that analyses the spatial motion of the device. This process was a bit tricky because there are many layers of knowledge that I still don't understand, but I'm on it. By the end I could place the mesh in the space, adn this is how it looks.
 
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_9/ar_mesh.gif" align="middle" width="70%">
