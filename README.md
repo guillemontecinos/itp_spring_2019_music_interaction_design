@@ -216,3 +216,22 @@ I think in this case the audio-side of the project is as important as the visual
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/assets/week8_midtofinal2.jpg" align="middle" width="70%">
 </p>
+ 
+ # Week 9 - Basic sound analysis and mesh rendering in oF and AR
+ During the weeks after the midterm I worked in start creating 3D textures in openFrameworks. For that I followed the chapter dedicated to mesh in the oF book from which I built a 3D animated mesh based.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_9/mesh.gif" align="middle" width="70%">
+</p>
+
+Then, I used that code as a base to place an spectrograph in a 3D space.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_9/spectrograph.gif" align="middle" width="70%">
+</p>
+
+Finally I worked on porting the previous advance to AR in order to put it on actual space. For this I finally decided to work with Android –basically because I don't need a payed license to be able to develop prototypes. The framework consists in oF supported by Android via the Android-oF library, which in parallel runs the addon ofxARCore, which communicates between the oF script and ARCore –which is the Android framework that analyses the spatial motion of the device. This process was a little tricky because there are many layers of knowledge that I still don't understand, but I'm on it. Finally I could place the mesh in the space, adn this is how it looks.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_9/ar_mesh.gif" align="middle" width="70%">
+</p>
