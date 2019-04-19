@@ -77,3 +77,11 @@
 * [ofxBeat](https://github.com/darrenmothersele/ofxBeat): A simple beat detection routine for openFrameworks that gives 32 fft bands plus separate output for kick, snare, and hihat.
 * [ofxBTrack](https://github.com/naotokui/ofxBTrack): beat tracking, not for onset detection.
 * [ofxFFT](https://github.com/kylemcdonald/ofxFft)
+
+## AVAudioSession errors in iOS 12
+* [stackoberflow](https://stackoverflow.com/questions/52626252/unknown-selected-data-source-for-port-speaker-type-speaker)
+* [apple forum](https://forums.developer.apple.com/thread/108785)
+* [my post in oF forum](https://forum.openframeworks.cc/t/sound-fft-problems-on-ios-12/32289)
+* [Maximilian](https://github.com/micknoise/Maximilian)
+* [Audiokit - Swift](https://github.com/audiokit/audiokit/)
+* [Apple vDSP - Swift](https://developer.apple.com/documentation/accelerate/vdsp)
