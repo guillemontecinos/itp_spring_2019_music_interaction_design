@@ -84,4 +84,9 @@
 * [my post in oF forum](https://forum.openframeworks.cc/t/sound-fft-problems-on-ios-12/32289)
 * [Maximilian](https://github.com/micknoise/Maximilian)
 * [Audiokit - Swift](https://github.com/audiokit/audiokit/)
+* [Audiokit.io](https://audiokit.io/)
 * [Apple vDSP - Swift](https://developer.apple.com/documentation/accelerate/vdsp)
+
+
+## User testing
+* Inspire visuals in [Sol Lewitt](http://1.bp.blogspot.com/_DGJZjoSxy4E/THr80oVa9hI/AAAAAAAAFAY/oX-h1z7KXS4/s1600/LeWitt-wall-drawings_l.jpg)

@@ -1,0 +1,1 @@
+These scripts were coded with openFrameworks of_v0.10.1_osx_release
