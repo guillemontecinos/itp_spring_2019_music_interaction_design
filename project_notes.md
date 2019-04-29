@@ -90,3 +90,50 @@
 
 ## User testing
 * Inspire visuals in [Sol Lewitt](http://1.bp.blogspot.com/_DGJZjoSxy4E/THr80oVa9hI/AAAAAAAAFAY/oX-h1z7KXS4/s1600/LeWitt-wall-drawings_l.jpg)
+
+## Matrix decomposition and recomposition
+The following code was written when trying to track a plane on ARKit and get rid of its rotation around y-axis
+
+```C++
+    //Decompose obj.transform
+    ofVec3f trans, scale;
+    ofQuaternion qRot, so;
+    obj.transform.decompose(trans, qRot, scale, so);
+    ofMatrix4x4 rotMat = ofMatrix4x4(qRot);
+    ofMatrix4x4 soMat = ofMatrix4x4(so);
+    ofMatrix4x4 scaleMat;
+    scaleMat.makeScaleMatrix(scale);
+    ofMatrix4x4 transMat;
+    transMat.makeTranslationMatrix(trans);
+    ofMatrix4x4 M = ofMatrix4x4();
+    
+    //get rid of rotation in y-axis. rotMat has the following structure
+    //|r00 r01 r02 0|
+    //|r10 r11 r12 0|
+    //|r20 r21 r22 0|
+    //| 0   0   0  1|
+    //
+    //and will become the following after the manipulation
+    //|r00 r01 r02 0|
+    //| 0   1   0  0|
+    //|r20 r21 r22 0|
+    //| 0   0   0  1|
+    ofVec4f row0 = rotMat.getRowAsVec4f(0);
+    ofVec4f row2 = rotMat.getRowAsVec4f(2);
+
+    ofMatrix4x4 rotMatnoY = ofMatrix4x4(row0[0], row0[1], row0[2], row0[3], 0, 1, 0, 0, row2[0], row2[1], row2[2], row2[3], 0, 0, 0, 1);
+    
+    //now the transformation is applied
+    //TODO: make the system have the same spatial transformation with the decomposed components
+    //Apply in the following order:
+    //1. Scale
+    //2. Rotation
+    //3. Translation
+    M.postMultRotate(so);
+    M.postMultScale(scale);
+    M.postMultRotate(qRot);
+    //        M.postMult(rotMatnoY);
+    M.postMultTranslate(trans);
+    
+    ofMultMatrix(M);
+```
