@@ -27,5 +27,7 @@ class ofApp : public ofBaseApp{
     ofMesh baseMesh, drawMesh;
     vector<ofVec3f> offsets;
     ofSoundPlayer star;
+//    ofColor c;
+//    int hue;
 		
 };
