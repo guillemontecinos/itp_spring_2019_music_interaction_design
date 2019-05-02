@@ -20,8 +20,14 @@ public:
     void windowResized(int w, int h);
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
-    ofMesh baseMesh, drawMesh;
     ofEasyCam cam;
+    //=============== Mesh Stuff ===============
+    ofMesh mesh;
     float lambda;
+    int stepSize, numSteps;
+    //=============== Mesh Stuff ===============
+    
+    //=============== Sound Stuff ===============
     ofSoundPlayer bass;
+    //=============== Sound Stuff ===============
 };

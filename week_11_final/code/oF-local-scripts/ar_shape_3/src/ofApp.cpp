@@ -4,57 +4,67 @@
 void ofApp::setup(){
     ofSetFrameRate(60);
     
-    baseMesh.setMode(OF_PRIMITIVE_LINES);
-    for(int x = 0; x <= 500; x += 10){
-        for(int y = 0; y <= 500; y += 10){
+    //=============== Mesh Stuff ===============
+    stepSize = 10;
+    numSteps = 50;
+    mesh.setMode(OF_PRIMITIVE_LINES);
+    for(int x = 0; x <= stepSize * numSteps; x += stepSize){
+        for(int y = 0; y <= stepSize * numSteps; y += stepSize){
             ofVec3f pos(x, y, 0);
-            baseMesh.addVertex(pos);
+            mesh.addVertex(pos);
         }
     }
-    drawMesh = baseMesh;
     
     float connectionDistance = 14.0;
-    int numVerts = drawMesh.getNumVertices();
+    int numVerts = mesh.getNumVertices();
     for (int a = 0; a < numVerts; a++) {
-        ofVec3f verta = drawMesh.getVertex(a);
+        ofVec3f verta = mesh.getVertex(a);
         for (int b = a + 1; b < numVerts; b++) {
-            ofVec3f vertb = drawMesh.getVertex(b);
+            ofVec3f vertb = mesh.getVertex(b);
             float distance = verta.distance(vertb);
             if (distance <= connectionDistance) {
-                drawMesh.addIndex(a);
-                drawMesh.addIndex(b);
+                mesh.addIndex(a);
+                mesh.addIndex(b);
             }
         }
     }
+    //=============== Mesh Stuff ===============
     
+    //=============== Sound Stuff ===============
     bass.load("bass-1.wav");
     bass.setLoop(true);
     bass.play();
+    //=============== Sound Stuff ===============
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
+    //=============== Mesh Stuff ===============
     lambda = ofMap(ofGetMouseY(), 0, ofGetHeight(), 10, 50);
     
-    int numVerts = drawMesh.getNumVertices();
+    int numVerts = mesh.getNumVertices();
     float time = ofGetElapsedTimef();
     for (int i = 0; i < numVerts; i++) {
-        ofVec3f vert = baseMesh.getVertex(i);
-        float row = i % 51;
+        ofVec3f vert = mesh.getVertex(i);
+        float row = i % (numSteps + 1);
         vert.z = 20 * cos(2 * (PI / lambda) * (row - 50 * time));
-        drawMesh.setVertex(i, vert);
+        mesh.setVertex(i, vert);
     }
+    //=============== Mesh Stuff ===============
     
+    //=============== Sound Stuff ===============
     bass.setSpeed(ofMap(lambda, 1, 100, 1.5, 0.5));
+    //=============== Sound Stuff ===============
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
     ofBackground(0, 0, 0);
+    ofSetColor(255, 100, 115, 100);
     cam.begin();
     ofPushMatrix();
     ofTranslate(-ofGetWidth()/2, -ofGetHeight()/2);
-    drawMesh.draw();
+    mesh.draw();
     ofPopMatrix();
     cam.end();
 }

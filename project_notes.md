@@ -137,3 +137,21 @@ The following code was written when trying to track a plane on ARKit and get rid
     
     ofMultMatrix(M);
 ```
+
+
+## To calculate distance from a point, considering a ofCamera object in use
+
+```C++
+    ofVec3f translation;
+    ofQuaternion rotation;
+    ofVec3f scale;
+    ofQuaternion so;
+
+    mat.decompose(translation,rotation,scale,so);
+    int x = translation[0];
+    int y = translation[1];
+    int z = translation[2];
+    cout << x << endl;
+    cout << y << endl;
+    cout << z << endl;
+```
