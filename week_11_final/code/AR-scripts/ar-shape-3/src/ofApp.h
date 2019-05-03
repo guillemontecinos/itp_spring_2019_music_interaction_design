@@ -2,6 +2,8 @@
 
 #include "ofxiOS.h"
 #include "ofxARKit.h"
+#include "ofxGui.h"
+
 class ofApp : public ofxiOSApp {
     
 public:
@@ -33,7 +35,8 @@ public:
     
     //=============== Mesh Stuff ===============
     ofMesh mesh;
-    float lambda, stepSize, numSteps;
+//    float lambda, stepSize, numSteps;
+    float stepSize, numSteps;
     bool meshSet;
     //=============== Mesh Stuff ===============
     
@@ -46,7 +49,10 @@ public:
     ARRef processor;
     // ====== AR STUFF ======== //
     
-    
+    //=============== GUI Stuff ===============
+    ofParameter<float> lambda;
+    ofxPanel gui;
+    //=============== GUI Stuff ===============
 };
 
 

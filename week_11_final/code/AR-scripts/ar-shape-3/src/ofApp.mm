@@ -16,18 +16,24 @@ ofApp :: ~ofApp () {
 
 //--------------------------------------------------------------
 void ofApp::setup() {
-    ofBackground(127);
+//    ofBackground(127);
     
     img.load("OpenFrameworks.png");
     
-    int fontSize = 8;
-    if (ofxiOSGetOFWindow()->isRetinaSupportedOnDevice())
-        fontSize *= 2;
+    //=============== GUI Stuff ===============
+    ofxGuiSetFont("Questrial-Regular.ttf",20,true,true);
+    ofxGuiSetTextPadding(4);
+    ofxGuiSetDefaultWidth(500);
+    ofxGuiSetDefaultHeight(50);
     
-    font.load("fonts/mono0755.ttf", fontSize);
+    gui.setup("Settings");
+    gui.add(lambda.set( "Bass Wave Length", 140, 10, 50));
+    //=============== GUI Stuff ===============
     
+    //=============== AR Stuff ===============
     processor = ARProcessor::create(session);
     processor->setup();
+    //=============== AR Stuff ===============
     
     meshSet = false;
     
@@ -62,6 +68,7 @@ void ofApp::setup() {
     bass.load("bass-1.mp3");
     bass.setLoop(true);
     //=============== Sound Stuff ===============
+    
 }
 
 vector < matrix_float4x4 > mats;
@@ -89,25 +96,44 @@ void ofApp::update(){
     }
     //=============== Mesh Stuff ===============
     
-    
+    //=============== Sound Stuff ===============
+        bass.setSpeed(ofMap(lambda, 10, 50, 1.5, 0.1));
+    //=============== Sound Stuff ===============
 }
 
 //--------------------------------------------------------------
 void ofApp::draw() {
     ofEnableAlphaBlending();
     
+    //draw camera
     ofDisableDepthTest();
     processor->draw();
+    
     ofEnableDepthTest();
     
+    //load planes
     processor->anchorController->loopPlaneAnchors([=](PlaneAnchorObject obj)->void {
     
         camera.begin();
         processor->setARCameraMatrices();
         
+        ofVec3f translation;
+        ofQuaternion rotation;
+        ofVec3f scale;
+        ofQuaternion so;
+        
         ofPushMatrix();
         //this line does the same of below but with the original matrix
         ofMultMatrix(obj.transform);
+        
+        
+        //=============== Debug Camera Position ===============
+        obj.transform.decompose(translation,rotation,scale,so);
+        cout << "obj: " << translation.x << ", " << translation.y << ", " << translation.z << ", d:  " << translation.length() << ", t: " << ofGetElapsedTimef() << endl;
+        
+        ofVec3f cam_pos = processor->getCameraPosition();
+        cout << "cam: " << cam_pos.x << ", " << cam_pos.y << ", " << cam_pos.z << ", d:  " << cam_pos.length() << ", t: " << ofGetElapsedTimef() << endl;
+        //=============== Debug Camera Position ===============
         
         //rotation around x-axis
         ofVec3f axis;
@@ -135,9 +161,10 @@ void ofApp::draw() {
     // ========== DEBUG STUFF ============= //
     
     ofSetColor(255, 100);
-    processor->debugInfo.drawDebugInformation(font);
 
-    
+//    processor->debugInfo.drawDebugInformation(font);
+    //draw gui
+    gui.draw();
 }
 
 //--------------------------------------------------------------
@@ -158,12 +185,7 @@ void ofApp::touchDown(ofTouchEventArgs &touch){
 
 //--------------------------------------------------------------
 void ofApp::touchMoved(ofTouchEventArgs &touch){
-//    lambda = ofMap(touch.y, 0, ofGetScreenHeight(), 10, 50);
-    lambda = ofMap(touch.y, 0, ofGetHeight(), 10, 50, true);
-    cout << lambda << endl;
-    //=============== Sound Stuff ===============
-    bass.setSpeed(ofMap(lambda, 10, 50, 1.5, 0.1));
-    //=============== Sound Stuff ===============
+    
 }
 
 //--------------------------------------------------------------
