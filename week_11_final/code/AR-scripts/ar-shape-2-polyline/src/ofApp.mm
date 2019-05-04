@@ -43,7 +43,7 @@ void ofApp::setup() {
     ofxGuiSetDefaultHeight(50);
     
     gui.setup("Settings");
-    gui.add(pitch.set("Arp Pitch", 140, 0, 100));
+    gui.add(pitch.set("Arp Pitch", 1, 0.3, 1.2));
     //=============== GUI Stuff ===============
     
     //=============== AR Stuff ===============
@@ -63,9 +63,8 @@ void ofApp::setup() {
     //=============== Line Stuff ===============
    
     //============ Sound Stuff ===============
-    arp.load("star-1.wav");
+    arp.load("star-1.mp3");
     arp.setLoop(true);
-    arp.play();
     //============ Sound Stuff ===============
 }
 
@@ -94,20 +93,14 @@ void ofApp::update(){
     //=============== Build Line ===============
     float t = ofGetElapsedTimef();
     vec1.scale(100 * ofNoise(t));
-//    vec1.scale(.33 * ofNoise(t));
     vec2.scale(100 * ofNoise(2.71828 * t));
-//    vec2.scale(.33 * ofNoise(2.71828 * t));
     vec3.scale(100 * ofNoise(5 * t));
-//    vec3.scale(.33 * ofNoise(5 * t));
-    qRot1.makeRotate(300 * t, ofVec3f(0,0,1));
-//    qRot1.makeRotate(t, ofVec3f(0,0,1));
+    qRot1.makeRotate(pitchAvg * 300 * t, ofVec3f(0,0,1));
     rotVec1 = qRot1 * vec1;
-    qRot2.makeRotate(300 * 2.71828 * t, ofVec3f(0,1,0));
-//    qRot2.makeRotate(2.71828 * t, ofVec3f(0,1,0));
+    qRot2.makeRotate(pitchAvg * 300 * 2.71828 * t, ofVec3f(0,1,0));
     rotVec2 = qRot2 * vec2;
     vecOut = rotVec1 + rotVec2;
-    qRot3.makeRotate(300 * 2.71828 * t, ofVec3f(1,0,0));
-//    qRot3.makeRotate(2.71828 * t, ofVec3f(1,0,0));
+    qRot3.makeRotate(pitchAvg * 300 * 2.71828 * t, ofVec3f(1,0,0));
     vecOut = vecOut + rotVec3;
     
     baseArray.push_back(vecOut);
@@ -119,49 +112,20 @@ void ofApp::update(){
         baseArray.pop_back();
     }
     
+    drawArray = baseArray;
     drawLine.clear();
     
     for (int i = 0; i < baseArray.size(); i++) {
         float len = baseArray[i].length();
-        drawArray[i].set(baseArray[i].x, baseArray[i].y, baseArray[i].z);
+        drawArray[i].set(baseArray[i]);
         drawArray[i].scale(len/300);
         drawLine.addVertex(drawArray[i]);
     }
-    
-//    if (baseLine.size() > 100){
-//        baseLine.getVertices().erase(
-//                                 baseLine.getVertices().begin()
-//                                 );
-//    }
-//
-//    for (auto &vert : baseLine.getVertices()){
-//        vert.x += ofRandom(-.1, .1);
-//        vert.y += ofRandom(-.1, .1);
-//        vert.z += ofRandom(-.1, .1);
-//    }
-    
-//    drawLine = baseLine;
-//
-//    for (auto &vert : drawLine.getVertices()){
-//        ofVec3f aux = ofVec3f(vert);
-//        float len = aux.length();
-//        aux.scale(len/300);
-//        vert.x = aux.x;
-//        vert.y = aux.y;
-//        vert.z = aux.z;
-//    }
-    
-    
-//    for (int a = 0; a < numVerts; a++) {
-//        ofVec3f vert = baseMesh.getVertex(a);
-//        float len = vert.length();
-//        vert.scale(len/300);
-//        drawMesh.setVertex(a, vert);
-//    }
     //=============== Build Line ===============
     
     //=============== Sound Stuff ===============
-    arp.setSpeed(ofMap(pitchAvg, 0, 100, .3, 1.2));
+    ofSoundUpdate();
+    arp.setSpeed(pitchAvg);
     //=============== Sound Stuff ===============
     
 }
@@ -200,9 +164,10 @@ void ofApp::draw() {
                 
                 if(i == 0){
 //                    drawMesh.draw();
-//                    ofSetColor(255, 100);
-//                    ofSetLineWidth(3);
-                    baseLine.draw();
+                    ofSetColor(255, 100);
+//                    ofSetLineWidth(20);
+                    glLineWidth(8);
+                    drawLine.draw();
                 }
                 ofPopMatrix();
             }
@@ -240,6 +205,7 @@ void ofApp::touchDown(ofTouchEventArgs &touch){
             [session addAnchor:anchor];
         }
         noMesh = false;
+        arp.play();
     }
 }
 
