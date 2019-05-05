@@ -60,7 +60,7 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
     ofBackground(0, 0, 0);
-    ofSetColor(255, 100, 115, 50);
+    ofSetColor(165, 104, 24, 50);
     cam.begin();
     ofPushMatrix();
     ofTranslate(-ofGetWidth()/2, -ofGetHeight()/2);

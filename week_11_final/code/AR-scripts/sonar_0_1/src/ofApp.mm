@@ -256,8 +256,8 @@ void ofApp::draw() {
                     ofSetColor(255);
                     ofRotate(90,0,0,1);
                     if(i == 1){
-                        ofSetColor(36, 181, 56, 150);
-                        glLineWidth(8);
+                        ofSetColor(242, 226, 50, 120);
+                        glLineWidth(7);
                         drawLine.draw();
                     }
                     ofPopMatrix();
@@ -283,8 +283,8 @@ void ofApp::draw() {
                     ofDrawRectangle(0, 0, 1, 1);
                 }
                 else{
-                    ofSetColor(235, 205, 60, 50);
-                    glLineWidth(5);
+                    ofSetColor(170, 163, 152, 120);
+                    glLineWidth(10);
                     mesh_3.draw();
                     ofSetColor(255, 50);
                 }
