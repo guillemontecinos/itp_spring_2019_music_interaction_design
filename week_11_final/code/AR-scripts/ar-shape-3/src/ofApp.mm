@@ -128,11 +128,11 @@ void ofApp::draw() {
         
         
         //=============== Debug Camera Position ===============
-        obj.transform.decompose(translation,rotation,scale,so);
-        cout << "obj: " << translation.x << ", " << translation.y << ", " << translation.z << ", d:  " << translation.length() << ", t: " << ofGetElapsedTimef() << endl;
-        
-        ofVec3f cam_pos = processor->getCameraPosition();
-        cout << "cam: " << cam_pos.x << ", " << cam_pos.y << ", " << cam_pos.z << ", d:  " << cam_pos.length() << ", t: " << ofGetElapsedTimef() << endl;
+//        obj.transform.decompose(translation,rotation,scale,so);
+//        cout << "obj: " << translation.x << ", " << translation.y << ", " << translation.z << ", d:  " << translation.length() << ", t: " << ofGetElapsedTimef() << endl;
+//
+//        ofVec3f cam_pos = processor->getCameraPosition();
+//        cout << "cam: " << cam_pos.x << ", " << cam_pos.y << ", " << cam_pos.z << ", d:  " << cam_pos.length() << ", t: " << ofGetElapsedTimef() << endl;
         //=============== Debug Camera Position ===============
         
         //rotation around x-axis
@@ -147,7 +147,8 @@ void ofApp::draw() {
             ofDrawRectangle(0, 0, 1, 1);
         }
         else{
-            ofSetColor(235, 205, 60, 200);
+            ofSetColor(235, 205, 60, 50);
+            glLineWidth(5);
             mesh.draw();
         }
         

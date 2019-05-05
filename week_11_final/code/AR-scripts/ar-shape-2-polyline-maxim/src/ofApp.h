@@ -35,14 +35,13 @@ public:
     ofCamera camera;
     ofTrueTypeFont font;
     ofImage img;
-    bool noMesh;
+    bool meshSet;
 
     // ====== AR STUFF ======== //
     ARSession * session;
     ARRef processor;
     
-    //=============== Mesh Stuff ===============
-    ofEasyCam cam;
+    //=============== Shape 2 Line Stuff ===============
     ofVec3f base, vec1, vec2, vec3, vecOut, rotVec1, rotVec2, rotVec3;
     ofQuaternion qRot1, qRot2, qRot3;
     ofPolyline baseLine, drawLine;
@@ -50,7 +49,7 @@ public:
     vector<float> pitchBuffer;
     vector<ofVec3f> baseArray;
     vector<ofVec3f> drawArray;
-    //=============== Mesh Stuff ===============
+    //=============== Shape 2 Line Stuff ===============
     
     //============ Sound Stuff ===============
     void audioOut(float * output, int bufferSize, int nChannels);

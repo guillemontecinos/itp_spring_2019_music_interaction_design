@@ -52,18 +52,17 @@ void ofApp::setup() {
     processor->setup();
     //=============== AR Stuff ===============
     
-    noMesh = true;
+    meshSet = false;
     
-    //=============== Line Stuff ===============
+    //=============== Shape 2 Line Stuff ===============
     //all values here are proportianally ported from the local mesh version divided by 300
     base.set(0,0,0);
     vec1.set(0.33,0,0); //(100,0,0)
     vec2.set(0.33,0,0); //(100,0,0)
     vec3.set(0.33,0,0); //(100,0,0)
-    
-    //=============== Line Stuff ===============
+    //=============== Shape 2 Line Stuff ===============
    
-    //============ Sound Stuff ===============
+    //============ Shape 2 Sound Stuff ===============
     sample.load(ofToDataPath("star-1.wav"));
     
     sampleRate     = 44100; /* Sampling Rate */
@@ -75,7 +74,7 @@ void ofApp::setup() {
     /* this has to happen at the end of setup - it switches on the DAC */
     ofSoundStreamSetup(2,2,this, sampleRate, bufferSize, 4);
     ofSoundStreamStart();
-    //============ Sound Stuff ===============
+    //============ Shape 2 Sound Stuff ===============
 }
 
 
@@ -85,7 +84,7 @@ void ofApp::update(){
     
     processor->update();
     
-    //=============== Pitch Stuff ===============
+    //=============== Shape 2 Pitch Stuff ===============
     //calculate pitch param as a mobile average
     pitchBuffer.push_back(pitch);
     float pitchAvg = 0;
@@ -99,9 +98,9 @@ void ofApp::update(){
     }
     pitchAvg /= pitchBuffer.size();
     speed = pitchAvg;
-    //=============== Pitch Stuff ===============
+    //=============== Shape 2 Pitch Stuff ===============
     
-    //=============== Build Line ===============
+    //=============== Shape 2 Build Line ===============
     float t = ofGetElapsedTimef();
     vec1.scale(100 * ofNoise(t));
     vec2.scale(100 * ofNoise(2.71828 * t));
@@ -132,9 +131,9 @@ void ofApp::update(){
         drawArray[i].scale(len/300);
         drawLine.addVertex(drawArray[i]);
     }
-    //=============== Build Line ===============
+    //=============== Shape 2 Build Line ===============
     
-    //=============== Distance Calculation ===============
+    //=============== Shape 2 Distance Calculation ===============
     ofVec3f cam_pos = processor->getCameraPosition();
 //    cout << "cam: " << cam_pos.x << ", " << cam_pos.y << ", " << cam_pos.z << ", d:  " << cam_pos.length() << ", t: " << ofGetElapsedTimef() << endl;
     
@@ -162,7 +161,7 @@ void ofApp::update(){
         volume = 0.;
     }
 //    cout << "volume: " << volume << endl;
-    //=============== Distance Calculation ===============
+    //=============== Shape 2 Distance Calculation ===============
     
 }
 
@@ -199,7 +198,7 @@ void ofApp::draw() {
                 ofRotate(90,0,0,1);
                 
                 if(i == 0){
-                    ofSetColor(255, 100);
+                    ofSetColor(36, 181, 56, 150);
                     glLineWidth(8);
                     drawLine.draw();
                 }
@@ -226,8 +225,9 @@ void ofApp::exit() {
 //--------------------------------------------------------------
 void ofApp::audioOut(float * output, int bufferSize, int nChannels) {
     
-    if (noMesh == false) {
-        for (int i = 0; i < bufferSize; i++){
+    
+    for (int i = 0; i < bufferSize; i++){
+        if (meshSet) {
             //============ Volume avg
             volArray.push_back(volume);
             if(volArray.size() > 10){
@@ -247,16 +247,15 @@ void ofApp::audioOut(float * output, int bufferSize, int nChannels) {
             
             wave = sample.play(speed);
             mymix.stereo(wave * gain, outputs, .5);
-            
-            output[i*nChannels    ] = outputs[0];
-            output[i*nChannels + 1] = outputs[1];
         }
+        output[i*nChannels    ] = outputs[0];
+        output[i*nChannels + 1] = outputs[1];
     }
 }
 
 //--------------------------------------------------------------
 void ofApp::touchDown(ofTouchEventArgs &touch){
-    if(noMesh == true){
+    if(!meshSet){
         if (session.currentFrame){
             ARFrame *currentFrame = [session currentFrame];
             
@@ -269,8 +268,7 @@ void ofApp::touchDown(ofTouchEventArgs &touch){
             
             [session addAnchor:anchor];
         }
-        noMesh = false;
-//        arp.play();
+        meshSet = true;
     }
 }
 
