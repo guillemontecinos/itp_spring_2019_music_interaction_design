@@ -235,3 +235,16 @@ Finally I worked on porting the previous advances to AR. For this I finally deci
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_9/ar_mesh.gif" align="middle" width="70%">
 </p>
+
+## Week 14 - sonAR
+During the last par ot the semester –specifically between week 9 and 14– the project had few changes in terms of developing platform, operative system and interaction approach. 
+
+The first decisiont I made was to move from Android to iOS, based on the fact that even iOS is a more rigid and expensive OS to work with, it is more structured and supported, at the same time that the community around it is bigger. Since Android is Java-based and therefore more flexible to work with, it becomes an unstable framework for non-mainstream developing approaches as openFrameworks, due to Android releases are not fastly followed by the oF community that works on ofxARCore, as it happens with the coomunity around ofxARKit. Due to the above I decided to move to iOS-ARKit thanks to Matt Jacobson's support who let me borrow his iPad and Apple developer account <3.
+
+After moving to ARKit and porting the previous mesh developments I realized that FFT analysis can't be calculated in iOS using the oF built-in function `ofSoundGetSpectrum()` since it's not implemente for mobile devices. That led me to research how to analyze sound in iOS, finding frameworks like `ofxMaxim`, `AudioKit` and the `Apple vDSP` kit. I tried Maxim with some troubles since I received the following error which seemed to be a bug on iOS 12 last release:
+
+```
+[avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Speaker (type: Speaker)
+```
+
+This made me think that no FFT can be calculated in iOS unless I get into Swit to code AudioKit or use vDSP in the low level, which I couldn't afford because of the project deadline. Considering this constrain I developed a simplification of the concept for the user testing, in which an element could react to a sound trigger event but no to the sound information of a track. This was a first aesthetic approach called "maraña" –the Spanish word for tangle– consisting in a floating white thread tangle that can be placed in the space and reacted to a screen touch interaction, triggering a visual animation and a drum sample. The user test meeting was very useful to solve this issue because I was adviced by my peers and Luisa to switch my ptoject a little in order to convert it into an AR sound experience in which music elements were represented physically, instead to make a real time representation of a musical piece or the ambient noise.

@@ -60,11 +60,11 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
     ofBackground(0, 0, 0);
-    ofSetColor(165, 104, 24, 50);
+    ofSetColor(165, 160, 170, 50);
     cam.begin();
     ofPushMatrix();
-    ofTranslate(-ofGetWidth()/2, -ofGetHeight()/2);
-    ofSetLineWidth(5);
+    ofTranslate(-ofGetWidth()/4, -ofGetHeight()/2);
+    ofSetLineWidth(2);
     mesh.draw();
 //    for (int i = 0; i < mesh.getNumVertices(); i++) {
 //        ofVec3f vert = mesh.getVertex(i);

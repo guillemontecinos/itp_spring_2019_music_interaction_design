@@ -283,7 +283,8 @@ void ofApp::draw() {
                     ofDrawRectangle(0, 0, 1, 1);
                 }
                 else{
-                    ofSetColor(170, 163, 152, 120);
+//                    ofSetColor(170, 163, 152, 120);
+                    ofSetColor(64, 64, 188, 120);
                     glLineWidth(10);
                     mesh_3.draw();
                     ofSetColor(255, 50);
