@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E96C55669301E7605D31E4 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F95F336CCB0C7FB8E511EB0B /* maximilian.cpp */; };
+		0EBD4CF4A5981F11F32D82AE /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E811DC15D33D292C8346BD0 /* ofxPanel.cpp */; };
+		0F9D174D79CEBB9CB7E2E6B0 /* Camera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6A7F3C9366EEB2BF2243F66A /* Camera.mm */; };
+		0FE6CB1A1A4C412CFED5CAAE /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09EE1CB5A7E6EA532CB50B8B /* ofxSliderGroup.cpp */; };
+		11E5C91FBC035358AF6DDA38 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 922CD100E57D8B6C2E87E72B /* ofxBaseGui.cpp */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		306D06F5C9531F383C48155E /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517B80F49A5C789E90E5131A /* ARKit.framework */; };
+		3B51981BCD1B72BF272156FE /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6614F9424CF030EF770AADFE /* ofxGuiGroup.cpp */; };
+		5326AEA810A23A0500278DE6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5326AEA710A23A0500278DE6 /* CoreLocation.framework */; };
+		53F323EB10A20EDB00E0DAE4 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F323EA10A20EDB00E0DAE4 /* OpenAL.framework */; };
+		56F44295509E9EA51A79C853 /* ARProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = E224ECD87F281FC0EEAD6056 /* ARProcessor.mm */; };
+		5A1342A024444B64031E8F1C /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BCF162281D4CB0092BD11D4 /* ofxSlider.cpp */; };
+		638DE90F0089AC4925AFFBA6 /* MetalCam.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71499AE3D2D5490397F66A19 /* MetalCam.mm */; };
+		67DFA53619F92A69003B3434 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DFA53419F92A5E003B3434 /* Accelerate.framework */; };
+		7038AA0B249F8295466AA6A0 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1F983A417BA1CC82BF6234E /* ofxLabel.cpp */; };
+		73F68570AA23747326738BB8 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F97681DB8EABE6C71C27E1A /* Metal.framework */; };
+		8346C90D025C65487CEEB984 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C083DE5EF7C2AD170099D /* ofxToggle.cpp */; };
+		888D698EA7C67CF20BABEDAF /* MyAppViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 623C80DF40EE6BCDFCC80B51 /* MyAppViewController.mm */; };
+		8A46BBAD354FD99755D34853 /* maxiBark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A19229C068EF9558F9ECE446 /* maxiBark.cpp */; };
+		901808C12053638E004A7774 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901808BF2053636F004A7774 /* GLKit.framework */; };
+		9936F6101BFA4DEE00891288 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9936F60F1BFA4DEE00891288 /* Images.xcassets */; };
+		9936F6121BFA65F100891288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9936F6111BFA65F100891288 /* LaunchScreen.storyboard */; };
+		9969E7561C782C4500DEF0F6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9969E7551C782C4500DEF0F6 /* CoreMotion.framework */; };
+		A7EA554ECE5A77D5399F3CAC /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E516327084C880AF536AA6E1 /* MetalKit.framework */; };
+		A9A16B1E62191E33535D39D3 /* MyAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = F63C79BA3EC38360C02D550C /* MyAppDelegate.mm */; };
+		AD2DCC9926D42300CA14495F /* ofxColorPicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 114A838C9753DC3AFB74238B /* ofxColorPicker.cpp */; };
+		ADC521D1E5A07E3A5E794B94 /* ARAnchorManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = B57A79BF1BA3809672E79976 /* ARAnchorManager.mm */; };
+		B3C86D62229218540089A1F8 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 712B3813C1FB3C172D145301 /* Shaders.metal */; };
+		B65E8E0019747A9FF4E3C36F /* maxiAtoms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DB746BBADD8E98CD4364372 /* maxiAtoms.cpp */; };
+		B9E5DA68F79DC88392192088 /* maxiFFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113C1919D71597AB753E7A6B /* maxiFFT.cpp */; };
+		BB16EBD20F2B2A9500518274 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16EBD10F2B2A9500518274 /* OpenGLES.framework */; };
+		BB16EBD90F2B2AB500518274 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16EBD80F2B2AB500518274 /* QuartzCore.framework */; };
+		BB477BD6DF10846E9410E176 /* maxiMFCC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8E4E92BD68D44D3BB5E4A /* maxiMFCC.cpp */; };
+		BBE5EAB80F49AD8400F28951 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE5EAB70F49AD8400F28951 /* AudioToolbox.framework */; };
+		CB9CBC6D4EDF6466EB7BCF5B /* OFAppViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDA37EEC683BC5C1A109FB2F /* OFAppViewController.mm */; };
+		E41D400B13B39D2100A75A5D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41D400613B39D2100A75A5D /* AVFoundation.framework */; };
+		E41D400C13B39D2100A75A5D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41D400713B39D2100A75A5D /* CoreMedia.framework */; };
+		E41D400D13B39D2100A75A5D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41D400813B39D2100A75A5D /* CoreVideo.framework */; };
+		E41D400E13B39D2100A75A5D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41D400913B39D2100A75A5D /* MapKit.framework */; };
+		E41D421413B3A95300A75A5D /* libofxiOS_iphoneos_Debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E41D410213B3A0D800A75A5D /* libofxiOS_iphoneos_Debug.a */; };
+		E4D8936E11527B74007E1F53 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4D8936B11527B74007E1F53 /* main.mm */; };
+		E4D8936F11527B74007E1F53 /* ofApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4D8936D11527B74007E1F53 /* ofApp.mm */; };
+		E691FFB0B4F0AC01D66DAAF8 /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02B0F909C5AEC4B499282957 /* ofxButton.cpp */; };
+		ECD95124BC8C44CE9F92840A /* ofxInputField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A11E513B30A5B6C3076A76 /* ofxInputField.cpp */; };
+		F73ED13DB6909ECDB967A041 /* stb_vorbis.c in Sources */ = {isa = PBXBuildFile; fileRef = F939DE0E0C067126484C114A /* stb_vorbis.c */; };
+		F7BB1DBBBFCD6A6FD252F027 /* fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF6C6D042C88CEB151ED15E /* fft.cpp */; };
+		FD1D0DCB5745A9C1E256A96E /* ARCam.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10F150E2FD2CB2D0CAA9A7B8 /* ARCam.mm */; };
+		FD65E22F0554300148912101 /* maxiGrains.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A3208F4BF161BC5C12CA9 /* maxiGrains.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E41D410113B3A0D800A75A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E41D40FD13B3A0D800A75A5D /* iOS+OFLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BB24DED610DA7A3F00E9C588;
+			remoteInfo = "iPhone+OF Static Library";
+		};
+		E41D410313B3A11300A75A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E41D40FD13B3A0D800A75A5D /* iOS+OFLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BB24DE5C10DA7A3F00E9C588;
+			remoteInfo = "iPhone+OF Static Library";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B0F909C5AEC4B499282957 /* ofxButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxButton.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxButton.cpp; sourceTree = SOURCE_ROOT; };
+		08D227177AA309B788997BFF /* ofxBaseGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBaseGui.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxBaseGui.h; sourceTree = SOURCE_ROOT; };
+		09EE1CB5A7E6EA532CB50B8B /* ofxSliderGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxSliderGroup.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxSliderGroup.cpp; sourceTree = SOURCE_ROOT; };
+		10F150E2FD2CB2D0CAA9A7B8 /* ARCam.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ARCam.mm; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/ARCam.mm; sourceTree = SOURCE_ROOT; };
+		113C1919D71597AB753E7A6B /* maxiFFT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = maxiFFT.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/maxiFFT.cpp; sourceTree = SOURCE_ROOT; };
+		114A838C9753DC3AFB74238B /* ofxColorPicker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxColorPicker.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxColorPicker.cpp; sourceTree = SOURCE_ROOT; };
+		1615FF3342DF2136855590F5 /* ofxGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxGui.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxGui.h; sourceTree = SOURCE_ROOT; };
+		17FBED088702994426960D5D /* ofxToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxToggle.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxToggle.h; sourceTree = SOURCE_ROOT; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* sonar_0_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sonar_0_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		247FE1CD2519FA1BC054F866 /* maximilian.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = maximilian.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/maximilian.h; sourceTree = SOURCE_ROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3188DEDEA42E5E54FD36010B /* ARObjects.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARObjects.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/ARObjects.h; sourceTree = SOURCE_ROOT; };
+		32CA4F630368D1EE00C91783 /* ofxiOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxiOS_Prefix.pch; sourceTree = "<group>"; };
+		39B3A8D4FD292F93C28B8AEC /* MyAppViewController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MyAppViewController.h; path = src/viewcontrollers/MyAppViewController.h; sourceTree = SOURCE_ROOT; };
+		3B8E4E7D1285E86A74F573D4 /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxSlider.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
+		3DC8E4E92BD68D44D3BB5E4A /* maxiMFCC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = maxiMFCC.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/maxiMFCC.cpp; sourceTree = SOURCE_ROOT; };
+		4B3F64C7515A38BB065555F6 /* ofxColorPicker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxColorPicker.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxColorPicker.h; sourceTree = SOURCE_ROOT; };
+		4F1A3208F4BF161BC5C12CA9 /* maxiGrains.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = maxiGrains.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/maxiGrains.cpp; sourceTree = SOURCE_ROOT; };
+		5000EA22CF172CC3924A2EB4 /* Camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Camera.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/Camera.h; sourceTree = SOURCE_ROOT; };
+		517B80F49A5C789E90E5131A /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ARKit.framework; sourceTree = "<group>"; };
+		5326AEA710A23A0500278DE6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		53F323EA10A20EDB00E0DAE4 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		6045C28B83790A42A74B3651 /* sineTable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sineTable.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/sineTable.h; sourceTree = SOURCE_ROOT; };
+		623C80DF40EE6BCDFCC80B51 /* MyAppViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MyAppViewController.mm; path = src/viewcontrollers/MyAppViewController.mm; sourceTree = SOURCE_ROOT; };
+		62E68950704949C1311644CB /* ofxMaxim.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxMaxim.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/src/ofxMaxim.h; sourceTree = SOURCE_ROOT; };
+		65A11E513B30A5B6C3076A76 /* ofxInputField.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxInputField.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxInputField.cpp; sourceTree = SOURCE_ROOT; };
+		6614F9424CF030EF770AADFE /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxGuiGroup.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxGuiGroup.cpp; sourceTree = SOURCE_ROOT; };
+		67DFA53419F92A5E003B3434 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		68A9E239D7F649640331E744 /* ARShaders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARShaders.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/ARShaders.h; sourceTree = SOURCE_ROOT; };
+		6A7F3C9366EEB2BF2243F66A /* Camera.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Camera.mm; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/Camera.mm; sourceTree = SOURCE_ROOT; };
+		6BCF162281D4CB0092BD11D4 /* ofxSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxSlider.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxSlider.cpp; sourceTree = SOURCE_ROOT; };
+		6E811DC15D33D292C8346BD0 /* ofxPanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxPanel.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxPanel.cpp; sourceTree = SOURCE_ROOT; };
+		6F97681DB8EABE6C71C27E1A /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Metal.framework; sourceTree = "<group>"; };
+		70D1FDE3FF03F05E5EC33667 /* ARProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARProcessor.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/ARProcessor.h; sourceTree = SOURCE_ROOT; };
+		712B3813C1FB3C172D145301 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; name = Shaders.metal; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/Shaders.metal; sourceTree = SOURCE_ROOT; };
+		71499AE3D2D5490397F66A19 /* MetalCam.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MetalCam.mm; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/MetalCam.mm; sourceTree = SOURCE_ROOT; };
+		71AF259DD83A3ED308F3DB0D /* ofxGuiGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxGuiGroup.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxGuiGroup.h; sourceTree = SOURCE_ROOT; };
+		78A898BA145665C588E6C2E3 /* MetalCam.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MetalCam.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/MetalCam.h; sourceTree = SOURCE_ROOT; };
+		7D8C083DE5EF7C2AD170099D /* ofxToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxToggle.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxToggle.cpp; sourceTree = SOURCE_ROOT; };
+		7DB746BBADD8E98CD4364372 /* maxiAtoms.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = maxiAtoms.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/maxiAtoms.cpp; sourceTree = SOURCE_ROOT; };
+		84C29E0D254554E84F5DF227 /* ShaderTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ShaderTypes.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/ShaderTypes.h; sourceTree = SOURCE_ROOT; };
+		86BAACFE0BF7EA1416376330 /* MyAppDelegate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MyAppDelegate.h; path = src/delegates/MyAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		901808BF2053636F004A7774 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		922CD100E57D8B6C2E87E72B /* ofxBaseGui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBaseGui.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxBaseGui.cpp; sourceTree = SOURCE_ROOT; };
+		9936F60F1BFA4DEE00891288 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9936F6111BFA65F100891288 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9969E7551C782C4500DEF0F6 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A19229C068EF9558F9ECE446 /* maxiBark.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = maxiBark.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/maxiBark.cpp; sourceTree = SOURCE_ROOT; };
+		A1F983A417BA1CC82BF6234E /* ofxLabel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxLabel.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxLabel.cpp; sourceTree = SOURCE_ROOT; };
+		A423008A977FAF601DB65211 /* maxiBark.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = maxiBark.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/maxiBark.h; sourceTree = SOURCE_ROOT; };
+		A97F72B23AD62F2172E3D9A5 /* ARAnchorManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARAnchorManager.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/ARAnchorManager.h; sourceTree = SOURCE_ROOT; };
+		AA8F31520BD44EBEF6E45CD3 /* fft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fft.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/fft.h; sourceTree = SOURCE_ROOT; };
+		AFA32F15CBC34924092B5BDA /* OFAppViewController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OFAppViewController.h; path = src/viewcontrollers/OFAppViewController.h; sourceTree = SOURCE_ROOT; };
+		AFD3DE34B1B747BD77510123 /* ofxLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxLabel.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxLabel.h; sourceTree = SOURCE_ROOT; };
+		B2642FC2EF0EDC960BC03467 /* maxiFFT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = maxiFFT.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/maxiFFT.h; sourceTree = SOURCE_ROOT; };
+		B57A79BF1BA3809672E79976 /* ARAnchorManager.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ARAnchorManager.mm; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/ARAnchorManager.mm; sourceTree = SOURCE_ROOT; };
+		BB16EBD10F2B2A9500518274 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BB16EBD80F2B2AB500518274 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BB24DDC910DA781C00E9C588 /* ofxiOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ofxiOS-Info.plist"; sourceTree = "<group>"; };
+		BB7DE42DD821A9D822B9D0D6 /* ofxPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPanel.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxPanel.h; sourceTree = SOURCE_ROOT; };
+		BBE5EAB70F49AD8400F28951 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CBFBA5037FB4D3FAEEA55C6B /* ofxARKit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxARKit.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/ofxARKit.h; sourceTree = SOURCE_ROOT; };
+		CC7D30EF80DC42AE7380F42E /* ARDebugUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARDebugUtils.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/ARDebugUtils.h; sourceTree = SOURCE_ROOT; };
+		CDA37EEC683BC5C1A109FB2F /* OFAppViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = OFAppViewController.mm; path = src/viewcontrollers/OFAppViewController.mm; sourceTree = SOURCE_ROOT; };
+		CF61F7868C0DE0DC86345BE7 /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxButton.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
+		D020CEB770417A4D78CB36B0 /* ARCam.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARCam.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/ARCam.h; sourceTree = SOURCE_ROOT; };
+		D07084CEF52DCD1D192849A9 /* maxiAtoms.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = maxiAtoms.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/maxiAtoms.h; sourceTree = SOURCE_ROOT; };
+		D7687B3E0C8BDBA796DF2B8C /* maxiGrains.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = maxiGrains.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/maxiGrains.h; sourceTree = SOURCE_ROOT; };
+		DCAA4D7E5553D3B86CDF43BF /* ARUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARUtils.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/ARUtils.h; sourceTree = SOURCE_ROOT; };
+		E1F3AC10F803174933C0B39E /* ofxSliderGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxSliderGroup.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxSliderGroup.h; sourceTree = SOURCE_ROOT; };
+		E224ECD87F281FC0EEAD6056 /* ARProcessor.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ARProcessor.mm; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/ARProcessor.mm; sourceTree = SOURCE_ROOT; };
+		E41D3ED613B38FB500A75A5D /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E41D3EE513B3906D00A75A5D /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../../../../of_v0.10.1_ios_release/libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E41D400613B39D2100A75A5D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E41D400713B39D2100A75A5D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E41D400813B39D2100A75A5D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E41D400913B39D2100A75A5D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E41D40FD13B3A0D800A75A5D /* iOS+OFLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "iOS+OFLib.xcodeproj"; path = "../../../../../../of_v0.10.1_ios_release/libs/openFrameworksCompiled/project/ios/iOS+OFLib.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		E4A823A312561BE3002F86A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4D8936B11527B74007E1F53 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = src/main.mm; sourceTree = SOURCE_ROOT; };
+		E4D8936C11527B74007E1F53 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4D8936D11527B74007E1F53 /* ofApp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofApp.mm; path = src/ofApp.mm; sourceTree = SOURCE_ROOT; };
+		E516327084C880AF536AA6E1 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = "<group>"; };
+		E66E3F410A71A5DC014FC05F /* ARFaceTrackingBool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARFaceTrackingBool.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/ARFaceTrackingBool.h; sourceTree = SOURCE_ROOT; };
+		EB847C190A0F2F03419FE1E1 /* stb_vorbis.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_vorbis.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/stb_vorbis.h; sourceTree = SOURCE_ROOT; };
+		F17692BE6BF53739BACA1D43 /* ARSessionSetup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARSessionSetup.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib/ARSessionSetup.h; sourceTree = SOURCE_ROOT; };
+		F3DECF22159520EA3D1FF71E /* ofxInputField.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxInputField.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src/ofxInputField.h; sourceTree = SOURCE_ROOT; };
+		F63C79BA3EC38360C02D550C /* MyAppDelegate.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MyAppDelegate.mm; path = src/delegates/MyAppDelegate.mm; sourceTree = SOURCE_ROOT; };
+		F783E40BA25CAC24200ECEBD /* maxiMFCC.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = maxiMFCC.h; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/maxiMFCC.h; sourceTree = SOURCE_ROOT; };
+		F939DE0E0C067126484C114A /* stb_vorbis.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stb_vorbis.c; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/stb_vorbis.c; sourceTree = SOURCE_ROOT; };
+		F95F336CCB0C7FB8E511EB0B /* maximilian.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = maximilian.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/maximilian.cpp; sourceTree = SOURCE_ROOT; };
+		FCF6C6D042C88CEB151ED15E /* fft.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fft.cpp; path = ../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs/fft.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9969E7561C782C4500DEF0F6 /* CoreMotion.framework in Frameworks */,
+				E41D421413B3A95300A75A5D /* libofxiOS_iphoneos_Debug.a in Frameworks */,
+				901808C12053638E004A7774 /* GLKit.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				BB16EBD20F2B2A9500518274 /* OpenGLES.framework in Frameworks */,
+				BB16EBD90F2B2AB500518274 /* QuartzCore.framework in Frameworks */,
+				BBE5EAB80F49AD8400F28951 /* AudioToolbox.framework in Frameworks */,
+				53F323EB10A20EDB00E0DAE4 /* OpenAL.framework in Frameworks */,
+				5326AEA810A23A0500278DE6 /* CoreLocation.framework in Frameworks */,
+				E41D400B13B39D2100A75A5D /* AVFoundation.framework in Frameworks */,
+				E41D400C13B39D2100A75A5D /* CoreMedia.framework in Frameworks */,
+				E41D400D13B39D2100A75A5D /* CoreVideo.framework in Frameworks */,
+				E41D400E13B39D2100A75A5D /* MapKit.framework in Frameworks */,
+				67DFA53619F92A69003B3434 /* Accelerate.framework in Frameworks */,
+				306D06F5C9531F383C48155E /* ARKit.framework in Frameworks */,
+				A7EA554ECE5A77D5399F3CAC /* MetalKit.framework in Frameworks */,
+				73F68570AA23747326738BB8 /* Metal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06BE3FD42B9E184DA8B2B49B /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				86BAACFE0BF7EA1416376330 /* MyAppDelegate.h */,
+				F63C79BA3EC38360C02D550C /* MyAppDelegate.mm */,
+			);
+			name = delegates;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* sonar_0_2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2152D16385B8F9DE337E943B /* ofxARKit */ = {
+			isa = PBXGroup;
+			children = (
+				65605B10F492D4585BA50B2D /* src */,
+				CBD5F6096361C823AA68D63D /* frameworks */,
+			);
+			name = ofxARKit;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				9936F60E1BFA4DEE00891288 /* mediaAssets */,
+				E4D8936A11527B74007E1F53 /* src */,
+				BB24E1F710DAA51900E9C588 /* openFrameworks */,
+				BB16F26B0F2B646B00518274 /* addons */,
+				BB16E9930F2B1E5900518274 /* libs */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				901808C02053638E004A7774 /* Frameworks */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* core frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67DFA53419F92A5E003B3434 /* Accelerate.framework */,
+				901808BF2053636F004A7774 /* GLKit.framework */,
+				BBE5EAB70F49AD8400F28951 /* AudioToolbox.framework */,
+				E41D400613B39D2100A75A5D /* AVFoundation.framework */,
+				E4A823A312561BE3002F86A2 /* CoreGraphics.framework */,
+				5326AEA710A23A0500278DE6 /* CoreLocation.framework */,
+				E41D400713B39D2100A75A5D /* CoreMedia.framework */,
+				9969E7551C782C4500DEF0F6 /* CoreMotion.framework */,
+				E41D400813B39D2100A75A5D /* CoreVideo.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				E41D400913B39D2100A75A5D /* MapKit.framework */,
+				53F323EA10A20EDB00E0DAE4 /* OpenAL.framework */,
+				BB16EBD10F2B2A9500518274 /* OpenGLES.framework */,
+				BB16EBD80F2B2AB500518274 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = "core frameworks";
+			sourceTree = "<group>";
+		};
+		2BE8196F15BC9A701C1D1807 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A97F72B23AD62F2172E3D9A5 /* ARAnchorManager.h */,
+				B57A79BF1BA3809672E79976 /* ARAnchorManager.mm */,
+				D020CEB770417A4D78CB36B0 /* ARCam.h */,
+				10F150E2FD2CB2D0CAA9A7B8 /* ARCam.mm */,
+				CC7D30EF80DC42AE7380F42E /* ARDebugUtils.h */,
+				E66E3F410A71A5DC014FC05F /* ARFaceTrackingBool.h */,
+				3188DEDEA42E5E54FD36010B /* ARObjects.h */,
+				70D1FDE3FF03F05E5EC33667 /* ARProcessor.h */,
+				E224ECD87F281FC0EEAD6056 /* ARProcessor.mm */,
+				F17692BE6BF53739BACA1D43 /* ARSessionSetup.h */,
+				68A9E239D7F649640331E744 /* ARShaders.h */,
+				DCAA4D7E5553D3B86CDF43BF /* ARUtils.h */,
+				5000EA22CF172CC3924A2EB4 /* Camera.h */,
+				6A7F3C9366EEB2BF2243F66A /* Camera.mm */,
+				78A898BA145665C588E6C2E3 /* MetalCam.h */,
+				71499AE3D2D5490397F66A19 /* MetalCam.mm */,
+				84C29E0D254554E84F5DF227 /* ShaderTypes.h */,
+				712B3813C1FB3C172D145301 /* Shaders.metal */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		480A780D8D0308AE4A368801 /* ofxGui */ = {
+			isa = PBXGroup;
+			children = (
+				A763ED608B35AE3310251DEE /* src */,
+			);
+			name = ofxGui;
+			sourceTree = "<group>";
+		};
+		4ACC32F17B7623DA048865D1 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				FCF6C6D042C88CEB151ED15E /* fft.cpp */,
+				AA8F31520BD44EBEF6E45CD3 /* fft.h */,
+				7DB746BBADD8E98CD4364372 /* maxiAtoms.cpp */,
+				D07084CEF52DCD1D192849A9 /* maxiAtoms.h */,
+				A19229C068EF9558F9ECE446 /* maxiBark.cpp */,
+				A423008A977FAF601DB65211 /* maxiBark.h */,
+				113C1919D71597AB753E7A6B /* maxiFFT.cpp */,
+				B2642FC2EF0EDC960BC03467 /* maxiFFT.h */,
+				4F1A3208F4BF161BC5C12CA9 /* maxiGrains.cpp */,
+				D7687B3E0C8BDBA796DF2B8C /* maxiGrains.h */,
+				3DC8E4E92BD68D44D3BB5E4A /* maxiMFCC.cpp */,
+				F783E40BA25CAC24200ECEBD /* maxiMFCC.h */,
+				F95F336CCB0C7FB8E511EB0B /* maximilian.cpp */,
+				247FE1CD2519FA1BC054F866 /* maximilian.h */,
+				6045C28B83790A42A74B3651 /* sineTable.h */,
+				F939DE0E0C067126484C114A /* stb_vorbis.c */,
+				EB847C190A0F2F03419FE1E1 /* stb_vorbis.h */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		6234D3BCE87D1C3BA2230F19 /* ofxMaxim */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC32F17B7623DA048865D1 /* libs */,
+				8F6BFB59AB6D0A458C2F3C53 /* src */,
+			);
+			name = ofxMaxim;
+			sourceTree = "<group>";
+		};
+		65605B10F492D4585BA50B2D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8196F15BC9A701C1D1807 /* lib */,
+				CBFBA5037FB4D3FAEEA55C6B /* ofxARKit.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		8F6BFB59AB6D0A458C2F3C53 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				62E68950704949C1311644CB /* ofxMaxim.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		901808C02053638E004A7774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9936F60E1BFA4DEE00891288 /* mediaAssets */ = {
+			isa = PBXGroup;
+			children = (
+				9936F6111BFA65F100891288 /* LaunchScreen.storyboard */,
+				9936F60F1BFA4DEE00891288 /* Images.xcassets */,
+			);
+			path = mediaAssets;
+			sourceTree = "<group>";
+		};
+		A763ED608B35AE3310251DEE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				922CD100E57D8B6C2E87E72B /* ofxBaseGui.cpp */,
+				08D227177AA309B788997BFF /* ofxBaseGui.h */,
+				02B0F909C5AEC4B499282957 /* ofxButton.cpp */,
+				CF61F7868C0DE0DC86345BE7 /* ofxButton.h */,
+				114A838C9753DC3AFB74238B /* ofxColorPicker.cpp */,
+				4B3F64C7515A38BB065555F6 /* ofxColorPicker.h */,
+				1615FF3342DF2136855590F5 /* ofxGui.h */,
+				6614F9424CF030EF770AADFE /* ofxGuiGroup.cpp */,
+				71AF259DD83A3ED308F3DB0D /* ofxGuiGroup.h */,
+				65A11E513B30A5B6C3076A76 /* ofxInputField.cpp */,
+				F3DECF22159520EA3D1FF71E /* ofxInputField.h */,
+				A1F983A417BA1CC82BF6234E /* ofxLabel.cpp */,
+				AFD3DE34B1B747BD77510123 /* ofxLabel.h */,
+				6E811DC15D33D292C8346BD0 /* ofxPanel.cpp */,
+				BB7DE42DD821A9D822B9D0D6 /* ofxPanel.h */,
+				6BCF162281D4CB0092BD11D4 /* ofxSlider.cpp */,
+				3B8E4E7D1285E86A74F573D4 /* ofxSlider.h */,
+				09EE1CB5A7E6EA532CB50B8B /* ofxSliderGroup.cpp */,
+				E1F3AC10F803174933C0B39E /* ofxSliderGroup.h */,
+				7D8C083DE5EF7C2AD170099D /* ofxToggle.cpp */,
+				17FBED088702994426960D5D /* ofxToggle.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		BB16E9930F2B1E5900518274 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				BBE5E94E0F497BD800F28951 /* core */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		BB16F26B0F2B646B00518274 /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				2152D16385B8F9DE337E943B /* ofxARKit */,
+				480A780D8D0308AE4A368801 /* ofxGui */,
+				6234D3BCE87D1C3BA2230F19 /* ofxMaxim */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		BB24E1F710DAA51900E9C588 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E41D40FD13B3A0D800A75A5D /* iOS+OFLib.xcodeproj */,
+				32CA4F630368D1EE00C91783 /* ofxiOS_Prefix.pch */,
+				BB24DDC910DA781C00E9C588 /* ofxiOS-Info.plist */,
+				E41D3EE513B3906D00A75A5D /* CoreOF.xcconfig */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E41D3ED613B38FB500A75A5D /* Project.xcconfig */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		BBE5E94E0F497BD800F28951 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				29B97323FDCFA39411CA2CEA /* core frameworks */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		CBD5F6096361C823AA68D63D /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				517B80F49A5C789E90E5131A /* ARKit.framework */,
+				E516327084C880AF536AA6E1 /* MetalKit.framework */,
+				6F97681DB8EABE6C71C27E1A /* Metal.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		D33A4FA4AC0104064E0F7CBA /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				AFA32F15CBC34924092B5BDA /* OFAppViewController.h */,
+				39B3A8D4FD292F93C28B8AEC /* MyAppViewController.h */,
+				CDA37EEC683BC5C1A109FB2F /* OFAppViewController.mm */,
+				623C80DF40EE6BCDFCC80B51 /* MyAppViewController.mm */,
+			);
+			name = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		E41D40FE13B3A0D800A75A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E41D410213B3A0D800A75A5D /* libofxiOS_iphoneos_Debug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4D8936A11527B74007E1F53 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4D8936B11527B74007E1F53 /* main.mm */,
+				E4D8936D11527B74007E1F53 /* ofApp.mm */,
+				E4D8936C11527B74007E1F53 /* ofApp.h */,
+				D33A4FA4AC0104064E0F7CBA /* viewcontrollers */,
+				06BE3FD42B9E184DA8B2B49B /* delegates */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* sonar_0_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "sonar_0_2" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				9255DD331112741900D6945E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E41D410413B3A11300A75A5D /* PBXTargetDependency */,
+			);
+			name = sonar_0_2;
+			productName = iPhone;
+			productReference = 1D6058910D05DD3D006BFB54 /* sonar_0_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 7E4FRN2QG2;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "sonar_0_2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E41D40FE13B3A0D800A75A5D /* Products */;
+					ProjectRef = E41D40FD13B3A0D800A75A5D /* iOS+OFLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* sonar_0_2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E41D410213B3A0D800A75A5D /* libofxiOS_iphoneos_Debug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libofxiOS_iphoneos_Debug.a;
+			remoteRef = E41D410113B3A0D800A75A5D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9936F6101BFA4DEE00891288 /* Images.xcassets in Resources */,
+				9936F6121BFA65F100891288 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9255DD331112741900D6945E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rsync -avz --exclude='.DS_Store' \"${SRCROOT}/bin/data/\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C86D62229218540089A1F8 /* Shaders.metal in Sources */,
+				E4D8936E11527B74007E1F53 /* main.mm in Sources */,
+				E4D8936F11527B74007E1F53 /* ofApp.mm in Sources */,
+				CB9CBC6D4EDF6466EB7BCF5B /* OFAppViewController.mm in Sources */,
+				888D698EA7C67CF20BABEDAF /* MyAppViewController.mm in Sources */,
+				A9A16B1E62191E33535D39D3 /* MyAppDelegate.mm in Sources */,
+				ADC521D1E5A07E3A5E794B94 /* ARAnchorManager.mm in Sources */,
+				FD1D0DCB5745A9C1E256A96E /* ARCam.mm in Sources */,
+				56F44295509E9EA51A79C853 /* ARProcessor.mm in Sources */,
+				0F9D174D79CEBB9CB7E2E6B0 /* Camera.mm in Sources */,
+				638DE90F0089AC4925AFFBA6 /* MetalCam.mm in Sources */,
+				11E5C91FBC035358AF6DDA38 /* ofxBaseGui.cpp in Sources */,
+				E691FFB0B4F0AC01D66DAAF8 /* ofxButton.cpp in Sources */,
+				AD2DCC9926D42300CA14495F /* ofxColorPicker.cpp in Sources */,
+				3B51981BCD1B72BF272156FE /* ofxGuiGroup.cpp in Sources */,
+				ECD95124BC8C44CE9F92840A /* ofxInputField.cpp in Sources */,
+				7038AA0B249F8295466AA6A0 /* ofxLabel.cpp in Sources */,
+				0EBD4CF4A5981F11F32D82AE /* ofxPanel.cpp in Sources */,
+				5A1342A024444B64031E8F1C /* ofxSlider.cpp in Sources */,
+				0FE6CB1A1A4C412CFED5CAAE /* ofxSliderGroup.cpp in Sources */,
+				8346C90D025C65487CEEB984 /* ofxToggle.cpp in Sources */,
+				F7BB1DBBBFCD6A6FD252F027 /* fft.cpp in Sources */,
+				B65E8E0019747A9FF4E3C36F /* maxiAtoms.cpp in Sources */,
+				8A46BBAD354FD99755D34853 /* maxiBark.cpp in Sources */,
+				B9E5DA68F79DC88392192088 /* maxiFFT.cpp in Sources */,
+				FD65E22F0554300148912101 /* maxiGrains.cpp in Sources */,
+				BB477BD6DF10846E9410E176 /* maxiMFCC.cpp in Sources */,
+				09E96C55669301E7605D31E4 /* maximilian.cpp in Sources */,
+				F73ED13DB6909ECDB967A041 /* stb_vorbis.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E41D410413B3A11300A75A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iPhone+OF Static Library";
+			targetProxy = E41D410313B3A11300A75A5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = 7E4FRN2QG2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ofxiOS_Prefix.pch;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = NO;
+				INFOPLIST_FILE = "ofxiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = 7E4FRN2QG2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ofxiOS_Prefix.pch;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = NO;
+				INFOPLIST_FILE = "ofxiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41D3ED613B38FB500A75A5D /* Project.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
+				COMPRESS_PNG_FILES = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = NO;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_PROTOTYPE_CONVERSION = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					src/delegates,
+					src/viewcontrollers,
+					../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src,
+					../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib,
+					../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src,
+					../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs,
+					../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/src,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WARNING_LDFLAGS = "-no_arch_warnings";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41D3ED613B38FB500A75A5D /* Project.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
+				COMPRESS_PNG_FILES = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					src/delegates,
+					src/viewcontrollers,
+					../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src,
+					../../../../../../of_v0.10.1_ios_release/addons/ofxARKit/src/lib,
+					../../../../../../of_v0.10.1_ios_release/addons/ofxGui/src,
+					../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/libs,
+					../../../../../../of_v0.10.1_ios_release/addons/ofxMaxim/src,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WARNING_LDFLAGS = "-no_arch_warnings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "sonar_0_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "sonar_0_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -252,3 +252,12 @@ This made me think that no FFT can be calculated in iOS unless I get into Swit t
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2019_music_interaction_design/blob/master/week_11_final/documentation/marana.gif" align="middle" width="50%">
 </p>
+
+After this I worked in incorporate two more elements to the experience: a mesh that represented the bass through a sine wave shaped mesh, and a flying arp represented by a thread that moves in the air according to the pitch of the arp.
+
+* describe process of design and show sketches
+* describe process of managing anchors and plane anchors
+* final learnings
+* documentation
+* project prompt
+* link to project notes
