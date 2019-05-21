@@ -1,3 +1,6 @@
+//Version 0.3
+//NOTICE: Reset option in this version is broken, that's why the gui reset button is commented.
+
 #include "ofApp.h"
 #include "ofxMaxim.h"
 
@@ -51,7 +54,7 @@ void ofApp::setup() {
     gui.setup("Settings");
     gui.add(mesh_3_pitch.set("Element 1 Pitch", 5, 1, 10));
     gui.add(pitch.set("Element 2 Pitch", 1, 0.3, 1.2)); //arp pitch
-    gui.add(resetParams.setup("Reset", 550));
+//    gui.add(resetParams.setup("Reset", 550));
     
     messageFont.load("Questrial-Regular.ttf", 50);
     //=============== GUI Stuff ===============
@@ -211,24 +214,55 @@ void ofApp::update(){
     ofVec3f cam_pos = processor->getCameraPosition();
     
     //=============== Shape 2 Distance Calculation ===============
-    if (session.currentFrame && session.currentFrame.camera && session.currentFrame.anchors.count > 1){
-        ARAnchor * anchor = session.currentFrame.anchors[1];
-        ofMatrix4x4 mat = convert<matrix_float4x4, ofMatrix4x4>(anchor.transform);
-        mat.decompose(translation, rotation, scale, so);
-        
-        ofVec3f delta = cam_pos - translation;
-        float dist = delta.length();
-        if (dist > 2.5) {
-            volumeArp = .1;
-        }
-        else{
-            //set volume = .8; as max just in case
-            volumeArp = ofMap(dist, 0., 2.5, .75, .1);
+    if (session.currentFrame && session.currentFrame.camera){
+        for (int i = 0; i < session.currentFrame.anchors.count; i++){
+            ARAnchor * anchor = session.currentFrame.anchors[i];
+            if(![anchor isKindOfClass:[ARPlaneAnchor class]]){
+                ARAnchor * anchor = session.currentFrame.anchors[1];
+                ofMatrix4x4 mat = convert<matrix_float4x4, ofMatrix4x4>(anchor.transform);
+                mat.decompose(translation, rotation, scale, so);
+                
+                ofVec3f delta = cam_pos - translation;
+                float dist = delta.length();
+                if (dist > 2.5) {
+                    volumeArp = .1;
+                }
+                else{
+                    //set volume = .8; as max just in case
+                    volumeArp = ofMap(dist, 0., 2.5, .75, .1);
+                }
+
+            }
+//            else{
+//                volumeArp = 0.;
+//            }
         }
     }
     else{
         volumeArp = 0.;
     }
+
+    
+    
+    
+//    if (session.currentFrame && session.currentFrame.camera && session.currentFrame.anchors.count > 1){
+//        ARAnchor * anchor = session.currentFrame.anchors[1];
+//        ofMatrix4x4 mat = convert<matrix_float4x4, ofMatrix4x4>(anchor.transform);
+//        mat.decompose(translation, rotation, scale, so);
+//
+//        ofVec3f delta = cam_pos - translation;
+//        float dist = delta.length();
+//        if (dist > 2.5) {
+//            volumeArp = .1;
+//        }
+//        else{
+//            //set volume = .8; as max just in case
+//            volumeArp = ofMap(dist, 0., 2.5, .75, .1);
+//        }
+//    }
+//    else{
+//        volumeArp = 0.;
+//    }
     //=============== Shape 2 Distance Calculation ===============
     
     //=============== Shape 3 Distance Calculation ===============
@@ -330,7 +364,7 @@ void ofApp::draw() {
         uxMessage = "Tap to set another element in the space.";
     }
     else if (scene == 3){
-        uxMessage = "Modify elements properties using settings interface.";
+        uxMessage = "You can change elements settings \n in the upper left side of the screen.";
     }
     else if (scene == 4){
         uxMessage = "";
